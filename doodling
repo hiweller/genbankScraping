@@ -1,0 +1,56 @@
+# import LethrinidaeSpecies.csv
+import csv
+import numpy as np
+from Bio import Entrez
+import time
+import TargetLengths as TL
+
+Entrez.email = 'hannahiweller@gmail.com'
+
+# path to CSV with genbank accession numbers
+LethrinidPath = '/Users/hannah/Dropbox/Westneat_Lab/GenBank Scraping/LethrinidaeSpecies.csv'
+projectName = 'Lethrinidae'
+
+reader = csv.reader(open(LethrinidPath, 'rb')) # read in csv
+byColumn = list(zip(*reader))[0:6] # parse by columns, first element is definition
+
+GBCodes = []
+for el in byColumn:
+    el = [i.split(',') for i in el]
+    el = sum(el, [])
+    el = filter(None, el)
+    GBCodes.append(el)
+
+Species = GBCodes[0][1:len(GBCodes[0])]
+COI = GBCodes[1][1:len(GBCodes[1])]
+RAG1 = GBCodes[2][1:len(GBCodes[2])]
+CytB = GBCodes[3][1:len(GBCodes[3])]
+S16 = GBCodes[4][1:len(GBCodes[4])]
+Rhodopsin = GBCodes[5][1:len(GBCodes[5])]
+
+# automatically fetching fasta files?
+handle = Entrez.efetch(db='nucleotide', id=Rhodopsin, rettype='fasta', retmode='text')
+
+GBmax = 100
+
+for gene in GBCodes[1:len(GBCodes)]:
+
+    # get gene name and build filename
+    filename = projectName + gene[0] + '.fasta'
+
+    # fetching FASTA sequences
+    # if more than 100, space it out!
+
+    if len(gene) > GBmax:
+        counter = 0
+        
+
+    genbank_handle = Entrez.efetch(db='nucleotide', id=gene[1:len(gene)], rettype='fasta', retmode='text')
+
+    out_handle = open(filename, 'w')
+    out_
+out_handle = open(filename, 'w')
+out_handle.write(handle.read())
+out_handle.close()
+handle.close()
+# print(handle.read())
