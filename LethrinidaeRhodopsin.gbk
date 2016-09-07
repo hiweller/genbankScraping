@@ -1,0 +1,314 @@
+LOCUS       KC222236                 747 bp    DNA     linear   VRT 27-APR-2013
+DEFINITION  Gnathodentex aureolineatus isolate MBIO487 rhodopsin gene, partial
+            cds.
+ACCESSION   KC222236
+VERSION     KC222236.1  GI:481048749
+KEYWORDS    .
+SOURCE      Gnathodentex aureolineatus (striped large-eye bream)
+  ORGANISM  Gnathodentex aureolineatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Monotaxinae;
+            Gnathodentex.
+REFERENCE   1  (bases 1 to 747)
+  AUTHORS   Lautredou,A.C., Motomura,H., Gallut,C., Ozouf-Costaz,C., Cruaud,C.,
+            Lecointre,G. and Dettai,A.
+  TITLE     New nuclear markers and exploration of the relationships among
+            Serraniformes (Acanthomorpha, Teleostei): The importance of working
+            at multiple scales
+  JOURNAL   Mol. Phylogenet. Evol. 67 (1), 140-155 (2013)
+   PUBMED   23306305
+REFERENCE   2  (bases 1 to 747)
+  AUTHORS   Lautredou,A.C., Motomura,H., Gallut,C., Ozouf-Costaz,C., Cruaud,C.,
+            Lecointre,G. and Dettai,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-NOV-2012) Unite Systematique, Adaptation et
+            Evolution, Museum National d'Histoire Naturelle, 43 rue Cuvier Case
+            Postale 26, Paris cedex 5 75231, France
+FEATURES             Location/Qualifiers
+     source          1..747
+                     /organism="Gnathodentex aureolineatus"
+                     /mol_type="genomic DNA"
+                     /isolate="MBIO487"
+                     /db_xref="taxon:490323"
+     mRNA            <1..>747
+                     /product="rhodopsin"
+     CDS             <1..>747
+                     /codon_start=1
+                     /product="rhodopsin"
+                     /protein_id="AGJ98406.1"
+                     /db_xref="GI:481048750"
+                     /translation="YMFFLILVGFPINFLTLYVTIEHKKLRTPLNYILLNLAVANLFM
+                     VFGGFTTTMYTSMHGYFVLGRLGCNLEGFFATLGGEIALWSLVVLAIERWVVVCKPIS
+                     NFRFGENHAIMGLGLTWTMASACAVPPLVGWSRYIPEGMQCSCGVDYYTRAEGFNNES
+                     FVVYMFTCHFLTPLTIVFFCYGRLLCAVKEAAAAQQESETTQRAEREVTRMVILMVIA
+                     FLVCWCPYAGVAWWIFTHQGSEFGPVFMTIP"
+ORIGIN      
+        1 tacatgttct tcctcatcct tgtgggcttc cccatcaact tcctcaccct gtacgtcacc
+       61 atcgaacaca agaagctgcg gacccctcta aactacattc tgttgaacct tgcggtggct
+      121 aaccttttca tggtctttgg aggattcacc acaacgatgt acacctctat gcatggctac
+      181 ttcgtactgg gacgccttgg ctgcaatctg gaaggattct ttgcaaccct cggcggtgag
+      241 attgcgctct ggtcactggt tgttctggct attgaaaggt gggtagttgt ctgcaaaccc
+      301 atcagcaact tccgcttcgg ggagaatcac gccattatgg gtctgggcct gacctggacg
+      361 atggcttcag cttgcgccgt gccccctctg gttggctggt cccgttacat ccctgaggga
+      421 atgcagtgct catgtggagt tgactactac acacgtgctg agggtttcaa caacgagtcc
+      481 tttgttgtct acatgttcac ctgccacttc ctcaccccac tgaccattgt gttcttctgc
+      541 tacggtcgtc tgctctgtgc tgtcaaagag gctgctgccg cccagcagga gtctgagacc
+      601 acccagaggg ctgagaggga agtcacccgc atggtcattc tgatggtcat cgccttcctg
+      661 gtatgttggt gtccctatgc cggtgtagcc tggtggatct tcacccatca gggctcagaa
+      721 ttcggaccag tcttcatgac catccca
+//
+
+LOCUS       JQ937974                 705 bp    DNA     linear   VRT 26-AUG-2013
+DEFINITION  Lethrinus harak voucher KU7105 rhodopsin (RH) gene, partial cds.
+ACCESSION   JQ937974
+VERSION     JQ937974.1  GI:444290761
+KEYWORDS    .
+SOURCE      Lethrinus harak (thumbprint emperor)
+  ORGANISM  Lethrinus harak
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Lethrininae;
+            Lethrinus.
+REFERENCE   1  (bases 1 to 705)
+  AUTHORS   Betancur-R,R., Li,C., Munroe,T.A., Ballesteros,J.A. and Orti,G.
+  TITLE     Addressing gene tree discordance and non-stationarity to resolve a
+            multi-locus phylogeny of the flatfishes (teleostei:
+            pleuronectiformes)
+  JOURNAL   Syst. Biol. 62 (5), 763-785 (2013)
+   PUBMED   23749787
+REFERENCE   2  (bases 1 to 705)
+  AUTHORS   Betancur,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-APR-2012) Biological Sciences, The George Washington
+            University, 2023 G St NW, Washington, DC 20052, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CodonCode Aligner v. 3.7
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..705
+                     /organism="Lethrinus harak"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="KU7105"
+                     /db_xref="taxon:182654"
+     gene            <1..>705
+                     /gene="RH"
+     mRNA            <1..>705
+                     /gene="RH"
+                     /product="rhodopsin"
+     CDS             <1..>705
+                     /gene="RH"
+                     /codon_start=1
+                     /product="rhodopsin"
+                     /protein_id="AGD95758.1"
+                     /db_xref="GI:444290762"
+                     /translation="AYMFLLILLGFPINFLTLYVTIEHKKLRTPLNYILLNLAVANLF
+                     MVFGGFTTTMYTSMHGYFVLGRLGCNLEGFFATHGGEIALWSLVVLAIERWVVVCKPI
+                     SNFRFGENHAIMGLAFTWVMAGACSVPPLVGWSRYIPEGMQCSCGIDYYTRAEGFNNE
+                     SFVIYMFTCHFLTPLIIVFFCYGRLLCAVKEAAAAQQESETTQRAEREVTRMVVIMVI
+                     AFLVCWLPYASVAWWIF"
+ORIGIN      
+        1 gcctacatgt tcctgctcat ccttctcggc ttccccatca acttcctcac cctgtacgtc
+       61 accatcgaac acaagaagct gcgaacccct ctaaactaca tcctgctgaa ccttgcggtg
+      121 gctaacctct tcatggtctt tggaggattc accacaacga tgtacacctc tatgcatggc
+      181 tacttcgtac tgggacgcct tggctgcaat ctggaaggat tctttgctac ccatggtggt
+      241 gaaatcgccc tgtggtctct ggttgttctg gctatcgaaa ggtgggtggt cgtctgcaag
+      301 cccatcagca acttccgctt cggggagaat cacgccatca tgggtttggc cttcacctgg
+      361 gtgatggccg gtgcttgctc cgtgccccct ctggtcggct ggtcccgtta catccccgag
+      421 ggaatgcagt gctcatgtgg aattgactac tacacacgtg cagagggttt caacaatgag
+      481 tcttttgtca tctacatgtt cacctgccac ttcctcaccc cactgatcat cgtgttcttc
+      541 tgctacggcc gtctgctctg tgctgtcaaa gaggctgctg ctgcccagca ggagtctgag
+      601 accacccaga gggctgagag ggaagtcacc cgcatggtcg ttatcatggt catcgccttc
+      661 ctggtatgtt ggttgcccta tgctagtgta gcctggtgga tcttc
+//
+
+LOCUS       KC222235                 747 bp    DNA     linear   VRT 27-APR-2013
+DEFINITION  Lethrinus olivaceus isolate MBIO1269 rhodopsin gene, partial cds.
+ACCESSION   KC222235
+VERSION     KC222235.1  GI:481048747
+KEYWORDS    .
+SOURCE      Lethrinus olivaceus (longface emperor)
+  ORGANISM  Lethrinus olivaceus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Lethrininae;
+            Lethrinus.
+REFERENCE   1  (bases 1 to 747)
+  AUTHORS   Lautredou,A.C., Motomura,H., Gallut,C., Ozouf-Costaz,C., Cruaud,C.,
+            Lecointre,G. and Dettai,A.
+  TITLE     New nuclear markers and exploration of the relationships among
+            Serraniformes (Acanthomorpha, Teleostei): The importance of working
+            at multiple scales
+  JOURNAL   Mol. Phylogenet. Evol. 67 (1), 140-155 (2013)
+   PUBMED   23306305
+REFERENCE   2  (bases 1 to 747)
+  AUTHORS   Lautredou,A.C., Motomura,H., Gallut,C., Ozouf-Costaz,C., Cruaud,C.,
+            Lecointre,G. and Dettai,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-NOV-2012) Unite Systematique, Adaptation et
+            Evolution, Museum National d'Histoire Naturelle, 43 rue Cuvier Case
+            Postale 26, Paris cedex 5 75231, France
+FEATURES             Location/Qualifiers
+     source          1..747
+                     /organism="Lethrinus olivaceus"
+                     /mol_type="genomic DNA"
+                     /isolate="MBIO1269"
+                     /db_xref="taxon:182660"
+     mRNA            <1..>747
+                     /product="rhodopsin"
+     CDS             <1..>747
+                     /codon_start=1
+                     /product="rhodopsin"
+                     /protein_id="AGJ98405.1"
+                     /db_xref="GI:481048748"
+                     /translation="YMFLLILLGFPINFLTLYVTIEHKKLRTPLNYILLNLAVANLFM
+                     VFGGFTTTMYTSMHGYFVLGRLGCNLEGFFATHGGEIALWSLVVLAIERWVVVCKPIS
+                     NFRFGENHAIMGLGFTWLMASACSVPPLVGWSRYIPEGMQCSCGIDYYTRAEGFNNES
+                     FVIYMFTCHFLTPLTIVFFCYGRLLCAVKEAAAAQQESETTQRAEREVTRMVILMVIA
+                     FLVCWLPYASVAWWIFTHQGSEFGPVFMTIP"
+ORIGIN      
+        1 tacatgttcc tgctcatcct tctcggcttc cccatcaact tcctcaccct gtacgtcacc
+       61 atcgaacaca agaagctgcg aacccctcta aactacatcc tgctgaacct tgcggtggct
+      121 aacctcttca tggtctttgg aggattcacc acaacgatgt acacctctat gcatggctac
+      181 ttcgtactgg gacgccttgg ctgcaatctg gaaggattct ttgctaccca cggtggtgaa
+      241 atcgcgctgt ggtctctggt tgttctggct atcgaaaggt gggtggttgt ctgcaagccc
+      301 atcagcaact tccgcttcgg ggagaatcac gccattatgg gtttgggctt cacctggctg
+      361 atggccagtg cttgctccgt gccccctctg gtcggctggt cccgttacat ccccgaggga
+      421 atgcagtgct catgtggaat tgactactac acacgtgcag agggtttcaa caatgagtct
+      481 tttgtcatct acatgttcac ctgccacttc ctcaccccac tgaccattgt gttcttctgc
+      541 tacggccgtc tgctctgtgc tgtcaaagag gctgctgccg cccagcagga gtctgagacc
+      601 acccagaggg ctgagaggga agtcacccgc atggtcattc tcatggtcat cgccttcctg
+      661 gtatgttggt tgccctatgc cagtgtagcc tggtggatct tcacacatca aggctcagaa
+      721 ttcggaccag tcttcatgac catcccg
+//
+
+LOCUS       KP723061                 837 bp    DNA     linear   VRT 24-APR-2015
+DEFINITION  Monotaxis grandoculis isolate Let91 rhodopsin (RH) gene, partial
+            cds.
+ACCESSION   KP723061
+VERSION     KP723061.1  GI:808040759
+KEYWORDS    .
+SOURCE      Monotaxis grandoculis (humpnose big-eye bream)
+  ORGANISM  Monotaxis grandoculis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Monotaxinae;
+            Monotaxis.
+REFERENCE   1  (bases 1 to 837)
+  AUTHORS   Lo,P.C., Liu,S.H., Chao,N.L., Nunoo,F.K., Mok,H.K. and Chen,W.J.
+  TITLE     A multi-gene dataset reveals a tropical New World origin and Early
+            Miocene diversification of croakers (Perciformes: Sciaenidae)
+  JOURNAL   Mol. Phylogenet. Evol. 88, 132-143 (2015)
+   PUBMED   25848970
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 837)
+  AUTHORS   Lo,P.-C., Liu,S.-H., Chao,N.L., Nunoo,F.K.E., Mok,H.-K. and
+            Chen,W.-J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JAN-2015) National Taiwan University, Institute of
+            Oceanography, No. 1, Sec. 4, Roosevelt Road, Taipei 10617, Taiwan
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CodonCode Aligner v. 5.0.1
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..837
+                     /organism="Monotaxis grandoculis"
+                     /mol_type="genomic DNA"
+                     /isolate="Let91"
+                     /db_xref="taxon:384591"
+     gene            <1..>837
+                     /gene="RH"
+     mRNA            <1..>837
+                     /gene="RH"
+                     /product="rhodopsin"
+     CDS             <1..>837
+                     /gene="RH"
+                     /codon_start=1
+                     /product="rhodopsin"
+                     /protein_id="AKC94749.1"
+                     /db_xref="GI:808040760"
+                     /translation="QYYLVNPAAYAALGAYMFLLILLGFPINFLTLYVTIEHKKLRTP
+                     LNYILLNLAVANLFMVFGGFTTTMYTSMHGYFVLGRLGCNLEGFFATHGGEIALWSLV
+                     VLAIERWVVVCKPISNFRFGENHAIMGLAFTWLMASACSVPPLVGWSRYIPEGMQCSC
+                     GVDYYTRAEGFNNESFVVYMFTCHFLTPLTIVFFCYGRLLCAVKEAAAAQQESETTQR
+                     AEREVTRMVILMVIAFLVCWLPYASVAWWIFTHQGSEFGPVFMTIPAFFAKSSSIYNP
+                     MIY"
+ORIGIN      
+        1 cagtactacc ttgtcaaccc agcagcatat gctgctctgg gtgcctacat gttcctcctc
+       61 atccttctgg gcttccccat caacttcctc accctgtacg tcaccatcga acacaagaag
+      121 ctgcggaccc ctctaaacta cattctgctg aaccttgcgg tggctaacct tttcatggtc
+      181 tttggaggat tcaccacaac gatgtacacc tctatgcacg gctacttcgt actgggacgc
+      241 cttggctgca atctggaagg attctttgct acccacggcg gtgagattgc cctctggtca
+      301 ctggttgttt tggctattga aaggtgggta gttgtctgca aacccatcag caacttccgc
+      361 ttcggggaga atcacgccat tatgggtctg gccttcacct ggttaatggc ttcagcttgc
+      421 tccgtgcccc ctctggtagg ctggtcccgt tatatccctg agggaatgca gtgctcatgt
+      481 ggagttgact actacacacg tgcagagggt ttcaacaatg agtcctttgt cgtctacatg
+      541 ttcacctgcc acttcctcac cccactgacc attgtgttct tctgctacgg tcgtctgctc
+      601 tgtgctgtca aagaggctgc tgccgcccag caggagtccg agaccaccca gagggctgag
+      661 agggaagtca cccgcatggt cattctcatg gtcatcgcct tcctggtatg ttggttgccc
+      721 tatgccagtg tagcctggtg gatcttcaca catcagggct cagaattcgg accagtcttc
+      781 atgaccatcc cagccttctt tgccaagagc tcctccatct acaacccaat gatctac
+//
+
+LOCUS       KC222234                 746 bp    DNA     linear   VRT 27-APR-2013
+DEFINITION  Monotaxis grandoculis isolate MBIO468 rhodopsin gene, partial cds.
+ACCESSION   KC222234
+VERSION     KC222234.1  GI:481048745
+KEYWORDS    .
+SOURCE      Monotaxis grandoculis (humpnose big-eye bream)
+  ORGANISM  Monotaxis grandoculis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Monotaxinae;
+            Monotaxis.
+REFERENCE   1  (bases 1 to 746)
+  AUTHORS   Lautredou,A.C., Motomura,H., Gallut,C., Ozouf-Costaz,C., Cruaud,C.,
+            Lecointre,G. and Dettai,A.
+  TITLE     New nuclear markers and exploration of the relationships among
+            Serraniformes (Acanthomorpha, Teleostei): The importance of working
+            at multiple scales
+  JOURNAL   Mol. Phylogenet. Evol. 67 (1), 140-155 (2013)
+   PUBMED   23306305
+REFERENCE   2  (bases 1 to 746)
+  AUTHORS   Lautredou,A.C., Motomura,H., Gallut,C., Ozouf-Costaz,C., Cruaud,C.,
+            Lecointre,G. and Dettai,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-NOV-2012) Unite Systematique, Adaptation et
+            Evolution, Museum National d'Histoire Naturelle, 43 rue Cuvier Case
+            Postale 26, Paris cedex 5 75231, France
+FEATURES             Location/Qualifiers
+     source          1..746
+                     /organism="Monotaxis grandoculis"
+                     /mol_type="genomic DNA"
+                     /isolate="MBIO468"
+                     /db_xref="taxon:384591"
+     mRNA            <1..>746
+                     /product="rhodopsin"
+     CDS             <1..>746
+                     /codon_start=3
+                     /product="rhodopsin"
+                     /protein_id="AGJ98404.1"
+                     /db_xref="GI:481048746"
+                     /translation="MFLLILLGFPINFLTLYVTIEHKKLRTPLNYILLNLAVANLFMV
+                     FGGFTTTMYTSMHGYFVLGRLGCNLEGFFATHGGEIALWSLVVLAIERWVVVCKPISN
+                     FRFGENHAIMGLAFTWLMASACSVPPLVGWSRYIPEGMQCSCGVDYYTRAEGFNNESF
+                     VVYMFTCHFLTPLTIVFFCYGRLLCAVKEAAAAQQESETTQRAEREVTRMVILMVIAF
+                     LVCWLPYASVAWWIFTHQGSEFGPVFMTIP"
+ORIGIN      
+        1 acatgttcct cctcatcctt ctgggcttcc ccatcaactt cctcaccctg tacgtcacca
+       61 tcgaacacaa gaagctgcgg acccctctaa actacattct gctgaacctt gcggtggcta
+      121 accttttcat ggtctttgga ggattcacca caacgatgta cacctctatg cacggctact
+      181 tcgtactggg acgccttggc tgcaatctgg aaggattctt tgctacccac ggcggtgaga
+      241 ttgccctctg gtcactggtt gttttggcta ttgaaaggtg ggtagttgtc tgcaaaccca
+      301 tcagcaactt ccgcttcggg gagaatcacg ccattatggg tctggccttc acctggttaa
+      361 tggcttcagc ttgctccgtg ccccctctgg taggctggtc ccgttatatc cctgagggaa
+      421 tgcagtgctc atgtggagtt gactactaca cacgtgcaga gggtttcaac aatgagtcct
+      481 ttgtcgtcta catgttcacc tgccacttcc tcaccccact gaccattgtg ttcttctgct
+      541 acggtcgtct gctctgtgct gtcaaagagg ctgctgccgc ccagcaggag tccgagacca
+      601 cccagagggc tgagagggaa gtcacccgca tggtcattct catggtcatc gccttcctgg
+      661 tatgttggtt gccctatgcc agtgtagcct ggtggatctt cacacatcag ggctcagaat
+      721 tcggaccagt cttcatgacc atccca
+//
+

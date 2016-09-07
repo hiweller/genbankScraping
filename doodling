@@ -3,7 +3,10 @@ import csv
 import numpy as np
 from Bio import Entrez
 import time
-import TargetLengths as TL
+import os
+import sys
+# sys.path.append('/Users/hannah/Dropbox/Westneat_Lab/')
+import Presets
 
 Entrez.email = 'hannahiweller@gmail.com'
 
@@ -33,24 +36,24 @@ handle = Entrez.efetch(db='nucleotide', id=Rhodopsin, rettype='fasta', retmode='
 
 GBmax = 100
 
-for gene in GBCodes[1:len(GBCodes)]:
-
-    # get gene name and build filename
-    filename = projectName + gene[0] + '.fasta'
-
-    # fetching FASTA sequences
-    # if more than 100, space it out!
-
-    if len(gene) > GBmax:
-        counter = 0
-        
-
-    genbank_handle = Entrez.efetch(db='nucleotide', id=gene[1:len(gene)], rettype='fasta', retmode='text')
-
-    out_handle = open(filename, 'w')
-    out_
-out_handle = open(filename, 'w')
-out_handle.write(handle.read())
-out_handle.close()
-handle.close()
+# for gene in GBCodes[1:len(GBCodes)]:
+#
+#     # get gene name and build filename
+#     filename = projectName + gene[0] + '.fasta'
+#
+#     # fetching FASTA sequences
+#     # if more than 100, space it out!
+#
+#     if len(gene) > GBmax:
+#         counter = 0
+#
+#
+#     genbank_handle = Entrez.efetch(db='nucleotide', id=gene[1:len(gene)], rettype='fasta', retmode='text')
+#
+#     out_handle = open(filename, 'w')
+#     out_
+# out_handle = open(filename, 'w')
+# out_handle.write(handle.read())
+# out_handle.close()
+# handle.close()
 # print(handle.read())
