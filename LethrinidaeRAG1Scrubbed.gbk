@@ -1,0 +1,1183 @@
+LOCUS       EU167771                1428 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Gnathodentex aureolineatus clone 2 recombination-activating protein
+            1 (RAG1) gene, partial cds.
+ACCESSION   EU167771
+VERSION     EU167771.1  GI:166092379
+KEYWORDS    .
+SOURCE      Gnathodentex aureolineatus (striped large-eye bream)
+  ORGANISM  Gnathodentex aureolineatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Monotaxinae;
+            Gnathodentex.
+REFERENCE   1  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     A molecular analysis of the Perciformes using the nuclear RAG1 gene
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-SEP-2007) Department of Biological Sciences, Old
+            Dominion University, Mills Godwin Building, Norfolk, VA 23529, USA
+FEATURES             Location/Qualifiers
+     source          1..1428
+                     /clone="2"
+                     /db_xref="taxon:490323"
+                     /mol_type="genomic DNA"
+                     /organism="Gnathodentex aureolineatus"
+     gene            <1..>1428
+                     /gene="RAG1"
+     mRNA            <1..>1428
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+     CDS             <1..>1428
+                     /codon_start=1
+                     /db_xref="GI:166092380"
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+                     /protein_id="ABY82205.1"
+                     /translation="TLRATEKELLPGFHQFEWQPALKNVSTSCDVGIINGLSGWASSVD
+                     DSPADTITRRFRYDVALVSALKDLEEDIMEGLRENGMDDSACTSGFRVMIKESCDGMGD
+                     VSEKHGGGPVVPEKAVRFSFTIMSVSVLADGEEEEVTIFREPKPNSQLSCKPLCLMFVD
+                     ESDHETLTAILGPVVAERTAMTESRLILSIGGLPRSFRSHFRGTGYDEKMVREMEGLEA
+                     SGSTCMCTLGDSSRPESSQNMVLHCITRNHEENLDRYEIWRTNPSSESVDELRDRVKGV
+                     SAKPSMETHPTLDALHCDIGNATEFYKIFQDEIGEVYQKPNPSRQERRSWRAALDKQLR
+                     KKMKLKPVMRMNGNYARRLMTLEAVEVVCELVPSEERREALRELMRLYLQMKPVWRATC
+                     PAKECPDQLCRYSFNSQRFADLLSSTFKYRYNGKITNYLHKTLAHVPEIIERDGSIGAW
+                     ASEGNESANKLFRRFRKM"
+ORIGIN
+        1 actctccgag ccacagagaa ggagcttctc cctggttttc accagtttga atggcagcca
+       61 gctctcaaga atgtgtctac atcttgcgac gttggcatta ttaatgggct ctctggatgg
+      121 gcttcctcag tggatgactc cccagctgac accatcactc ggcggtttcg ctatgatgtg
+      181 gcactggtgt cagcattaaa ggatctggaa gaggacatca tggaggggct gagagagaat
+      241 gggatggatg acagtgcttg cacctcaggc ttcagagtca tgatcaagga gtcctgtgac
+      301 ggaatgggtg atgtcagcga gaaacacggt ggaggaccag ttgttccaga gaaggctgta
+      361 cgtttctctt tcactattat gtctgtctca gtcctggcag acggcgagga ggaagaggtt
+      421 accatcttca gggagccgaa gccaaactca caactgtcat gtaagcccct ctgcctgatg
+      481 tttgtggatg aatcagacca tgagacactc acagccatcc tagggcctgt tgttgcagag
+      541 cgcactgcaa tgacagagag caggctcatc ctgtccatag gtggactgcc tcgctccttc
+      601 cgctctcact tcagaggcac gggatacgat gagaagatgg tgcgtgagat ggaaggcctg
+      661 gaggcctcag gatccacatg tatgtgcact ctgggtgact ccagtcgtcc agagtcctca
+      721 caaaacatgg tgctgcactg catcacccgc aatcatgaag agaacttaga ccgttatgaa
+      781 atatggagaa caaacccatc ctctgagtct gtagatgagc tgcgagacag agtcaaaggg
+      841 gtctctgcca agccatccat ggagacccac cccacactgg atgcattgca ctgcgacatc
+      901 ggcaacgcca cagagtttta caaaatcttc caggatgaga ttggggaagt gtaccaaaag
+      961 cccaacccaa gccggcagga gcggcgcagc tggagggccg ccctggataa acagctgagg
+     1021 aagaagatga agcttaaacc agtaatgagg atgaatggga actatgcccg ccggctaatg
+     1081 acccttgagg ctgtggaggt ggtgtgtgag ctggtaccct cagaggagag gagagaggcc
+     1141 ctgagggagc ttatgaggct ctacctccag atgaagcctg tgtggcgcgc cacctgccca
+     1201 gccaaggagt gccctgacca gctgtgccgc tacagcttta actcccagcg cttcgccgac
+     1261 ctcctctcct ccaccttcaa atacaggtac aatggaaaga taaccaatta cctgcataag
+     1321 accctggccc acgtgcctga gatcatcgag agagatggct ccattggagc ctgggccagc
+     1381 gaggggaatg agtcagccaa caaactgttc aggcgcttcc ggaagatg
+//
+LOCUS       EU167770                1428 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Gnathodentex aureolineatus clone 1 recombination-activating protein
+            1 (RAG1) gene, partial cds.
+ACCESSION   EU167770
+VERSION     EU167770.1  GI:166092377
+KEYWORDS    .
+SOURCE      Gnathodentex aureolineatus (striped large-eye bream)
+  ORGANISM  Gnathodentex aureolineatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Monotaxinae;
+            Gnathodentex.
+REFERENCE   1  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     A molecular analysis of the Perciformes using the nuclear RAG1 gene
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-SEP-2007) Department of Biological Sciences, Old
+            Dominion University, Mills Godwin Building, Norfolk, VA 23529, USA
+FEATURES             Location/Qualifiers
+     source          1..1428
+                     /clone="1"
+                     /db_xref="taxon:490323"
+                     /mol_type="genomic DNA"
+                     /organism="Gnathodentex aureolineatus"
+     gene            <1..>1428
+                     /gene="RAG1"
+     mRNA            <1..>1428
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+     CDS             <1..>1428
+                     /codon_start=1
+                     /db_xref="GI:166092378"
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+                     /protein_id="ABY82204.1"
+                     /translation="TLRDTEKELLPGFHQFEWQPALKNVSTSCDVGIINGLSGWASSVD
+                     DSPADTITRRFRYDVALVSALKDLEEDIMEGLRENGMDDSACTSGFRVMIKESCDGMGD
+                     VSEKHGGGPVVPEKAVRFSFTIMSVSVLADGEEEEVTIFREPKPNSELSCKPLCLMFVD
+                     ESDHETLTAILGPVVAERNAMTESRLILSIGGLPRSFRFHFRGTGYDEKMVREMEGLEA
+                     SGSTYVCTLCDSSRAETSQNIVLHFMTRSHEEILDRYEIWRTNPSSESVDELRDKVKGV
+                     SAKPSMETNPKLDALHCDIGNATEFYKIFQDEIGEVYQKPNPSRQERRSWRAALDKQLR
+                     KKMKLKPVMRMNGNYARRLMTLEAVEVVCELVPSEERREALRELMRLYLQMKPVWRATC
+                     PAKECPDQLCRYSFNSQRFADLLSSTFKYRYNGKITNYLHKTLAHVPEIIERDGSIGAW
+                     ASEGNESANKLFRRFRKM"
+ORIGIN
+        1 actctccgag acacagagaa ggagcttctc cctggttttc accagtttga atggcagcca
+       61 gctctcaaga atgtgtctac atcttgcgac gttggcatta ttaatgggct ctctggatgg
+      121 gcttcctcag tggatgactc cccagctgac accatcactc ggcggtttcg ctatgatgtg
+      181 gcactggtgt cagcattaaa ggatctggaa gaggacatca tggaggggct gagagagaat
+      241 gggatggatg acagtgcttg cacctcaggc ttcagagtca tgatcaagga gtcctgtgac
+      301 ggaatgggtg atgtcagcga gaaacacggt ggaggaccag ttgttccaga gaaggctgta
+      361 cgtttctctt tcactattat gtctgtctca gtcctggcag acggcgagga ggaagaggtt
+      421 accatcttca gggagccgaa gccaaactca gaactgtcat gtaagcccct ctgcctgatg
+      481 tttgtggatg aatcagacca tgagacactc acagccatcc tagggcctgt tgttgcagag
+      541 cgcaatgcaa tgacagagag caggctcatc ctgtccatag gtgggctgcc tcgctccttc
+      601 cgctttcact tcagaggcac gggatacgat gagaagatgg tgcgtgagat ggagggcctc
+      661 gaggcctcag gatccaccta cgtctgcact ctttgtgact ccagtcgggc agagacctct
+      721 caaaacatag tgctgcactt catgactcgc agtcatgaag agatcttaga ccgttatgaa
+      781 atatggagaa ccaacccctc ctctgagtct gtagatgagc tgcgagacaa agtcaaaggg
+      841 gtctctgcca agccatccat ggaaaccaac cctaagctgg atgcattgca ctgcgacatc
+      901 ggcaacgcca cagagtttta caaaatcttc caggatgaga ttggggaagt gtaccaaaag
+      961 cccaacccaa gccggcagga gcggcgcagc tggagggccg ccctggataa acagctgagg
+     1021 aagaagatga agcttaaacc agtaatgagg atgaatggga actatgcccg ccggctaatg
+     1081 acccttgagg ctgtggaggt ggtgtgtgag ctggtaccct cagaggagag gagagaggcc
+     1141 ctgagggagc ttatgaggct ctacctccag atgaagcctg tgtggcgcgc cacctgccca
+     1201 gccaaggagt gccctgacca gctgtgccgc tacagcttta actcccagcg cttcgccgac
+     1261 ctcctctcct ccaccttcaa atacaggtac aatggaaaga taaccaatta cctgcataag
+     1321 accctggccc acgtgcctga gatcatcgag agagatggct ccattggagc ctgggccagc
+     1381 gaggggaatg agtcggccaa caaactgttc aggcgcttcc ggaagatg
+//
+LOCUS       EU167772                1428 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Gymnocranius elongatus recombination-activating protein 1 (RAG1)
+            gene, partial cds.
+ACCESSION   EU167772
+VERSION     EU167772.1  GI:166092381
+KEYWORDS    .
+SOURCE      Gymnocranius elongatus (forktail large-eye bream)
+  ORGANISM  Gymnocranius elongatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Monotaxinae;
+            Gymnocranius.
+REFERENCE   1  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     A molecular analysis of the Perciformes using the nuclear RAG1 gene
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-SEP-2007) Department of Biological Sciences, Old
+            Dominion University, Mills Godwin Building, Norfolk, VA 23529, USA
+FEATURES             Location/Qualifiers
+     source          1..1428
+                     /db_xref="taxon:182645"
+                     /mol_type="genomic DNA"
+                     /organism="Gymnocranius elongatus"
+     gene            <1..>1428
+                     /gene="RAG1"
+     mRNA            <1..>1428
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+     CDS             <1..>1428
+                     /codon_start=1
+                     /db_xref="GI:166092382"
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+                     /protein_id="ABY82206.1"
+                     /translation="TLRATEKELLPGFHQFEWQPALKNVSTSCDVGIINGLSGWASSVD
+                     DSPADTITRRFRYDVALVSALKDLEEDIMEGLRESGMDDSACTSGFRVMIKESCDGMGD
+                     VSEKHGGGPVVPEKAVRFSFTIMSVSVLAGGKEEKVTIFREPKPNSELSCKPLCLMFVD
+                     ESDHETLTAVLGPVVAERNAMKESRLILSIGGLPRSFRFHFKGTGYDEKMVREMEGLEA
+                     SGSTYVCTLCDSTRPEASQNMVLHSIPRSHEENLDRYEIWGTNPSSESVDELRDRVKGV
+                     SAKPSMETHPKLDALHCDIGNATEFYKIFQDEIGEVYKKVNPSREERRSWRAALDKQLR
+                     KKMKLKPVMRMNGNYARRLMTLEAVEVVCELVPSEERREALRELMRIYLQMKPVWRATC
+                     PAKECPDQLCRYSFNSQRFADLLSSTFKYRYNGKITNYLHKTLAHIPEIIERDGSIGAW
+                     ASEGDESANKLFRRFRKM"
+ORIGIN
+        1 actctccgag ccacagagaa ggagcttctc cccggctttc accagtttga atggcagcca
+       61 gctcttaaga atgtgtctac atcttgcgat gttggcatta ttaatgggct ctctggatgg
+      121 gcttcctcag tggatgactc cccagctgac accatcactc ggcggtttcg ctatgatgtg
+      181 gcactggtgt cagcattaaa ggatctggag gaggacatca tggaggggct gagagagagt
+      241 gggatggatg acagtgcttg cacctcaggc ttcagagtca tgatcaagga atcctgtgac
+      301 ggaatgggcg atgtcagcga gaagcacggt ggaggaccag ttgttcctga aaaagctgta
+      361 cgtttctctt tcactattat gtctgtctct gtcctggcag gcggcaagga ggaaaaggtt
+      421 accatcttca gggagccaaa gccaaactca gaactgtcat gtaagcccct ttgcctgatg
+      481 tttgtggatg agtcagacca cgagacactc acagccgtcc tggggcctgt tgttgcagag
+      541 cgcaatgcaa tgaaagagag caggctcatc ctgtccatag gtggactgcc tcgctccttc
+      601 cgctttcact tcaaaggcac gggatatgat gagaagatgg tgcgtgagat ggagggcctc
+      661 gaggcctcag ggtccaccta cgtctgcact ctttgtgact ccactcggcc agaggcctct
+      721 caaaacatgg tgctgcactc catccctcgc agtcatgaag agaacttaga ccgttatgaa
+      781 atatggggaa ccaacccctc ctctgagtct gtagatgagc tgcgagacag agtcaaaggg
+      841 gtctctgcca agccatccat ggagacccac cccaagctgg atgcattgca ctgcgacatc
+      901 ggcaacgcca ctgagttcta caaaatcttc caggatgaga ttggggaggt gtacaaaaag
+      961 gtcaacccaa gccgggagga gcggcgcagc tggagggctg ccctggataa acagctgagg
+     1021 aagaagatga agcttaaacc ggtaatgagg atgaatggga actatgcccg ccggctaatg
+     1081 accctggagg ctgtggaggt tgtgtgtgag ctggtgccct cagaggagag gagggaggcc
+     1141 ctgagggagc ttatgaggat ctacctccag atgaagcctg tgtggcgagc cacctgccca
+     1201 gccaaggagt gccctgacca gctgtgccgc tacagcttta actcccagcg cttcgccgac
+     1261 ctcctctcct ccaccttcaa atacaggtac aatggaaaga taaccaatta cctgcacaag
+     1321 accctggccc acattcccga gatcatagag agagatggat ccattggagc ctgggccagc
+     1381 gagggggatg agtcggcaaa caaactgttc aggcgttttc ggaagatg
+//
+LOCUS       EU167775                1428 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Lethrinus atkinsoni recombination-activating protein 1 (RAG1) gene,
+            partial cds.
+ACCESSION   EU167775
+VERSION     EU167775.1  GI:166092387
+KEYWORDS    .
+SOURCE      Lethrinus atkinsoni (Pacific yellowtail emperor)
+  ORGANISM  Lethrinus atkinsoni
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Lethrininae;
+            Lethrinus.
+REFERENCE   1  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     A molecular analysis of the Perciformes using the nuclear RAG1 gene
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-SEP-2007) Department of Biological Sciences, Old
+            Dominion University, Mills Godwin Building, Norfolk, VA 23529, USA
+FEATURES             Location/Qualifiers
+     source          1..1428
+                     /db_xref="taxon:182648"
+                     /mol_type="genomic DNA"
+                     /organism="Lethrinus atkinsoni"
+     gene            <1..>1428
+                     /gene="RAG1"
+     mRNA            <1..>1428
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+     CDS             <1..>1428
+                     /codon_start=1
+                     /db_xref="GI:166092388"
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+                     /protein_id="ABY82209.1"
+                     /translation="TLRATEKELLPGFHQFEWQPALKNVSTSCDVGIINGLSGWASSVD
+                     DAPADTITRRFRYDVALVSALKDLEEDIMEGLRENGMDDSPCTSGFKVWIKESCNGMGD
+                     VSEKHGGGPVVPEKAVRFSFGSRPVSALADGEEKRFTIFTGPKPIPELSCEPLCLMVWD
+                     ESNYQKLTAPLWPFATERLAMKKSRLVSFLGMLALPSRSYFGFTGYDERMVREMEGLGP
+                     SGSTYVCTLWDSSRAEASQNMVLHSITRSHEENLERYEIWRTNPFSESAEELRDRVKGV
+                     SAKPFMETHPTLDALHCDIGNATEFYKIFQDEIGEVYKKVNPSREERRSWRAALDKQLR
+                     KKMKLKPVMRMNGNYARRLMTLEAVEVVCELVPSEDRREALRELMRLYLQMKPVWRATC
+                     PAKECPDQLCRYSFNSQRFADLLSSTFKYRYNGKITNYLHKTLAHVPEIIERDGSIGAW
+                     ASEGNESANKLFRRFRKM"
+ORIGIN
+        1 actctccgag ccactgaaaa ggagcttctc ccaggctttc accagtttga atggcagcca
+       61 gctctcaaga atgtgtctac atcttgcgat gtcggcatta ttaatggcct ttctggatgg
+      121 gcctcctcag tggatgacgc gccagctgac accatcactc ggcggtttcg ctatgatgtg
+      181 gcactggtgt cagcattaaa ggatctggag gaggacatca tggaggggct gagagagaac
+      241 ggtatggatg acagcccttg cacctcaggc ttcaaagtct ggatcaagga atcttgcaac
+      301 gggatgggcg atgtcagtga aaagcacggt ggaggaccag tcgttcctga aaaagctgta
+      361 cgcttctctt tcggtagtcg gcctgtttct gccctggccg acggcgagga gaaaaggttt
+      421 accatcttta caggaccaaa gccaatccct gaactgtcct gtgagcccct ttgcctgatg
+      481 gtttgggatg agtcaaacta ccagaaactc acagcccctc tgtggccttt tgcaacagag
+      541 cgccttgcaa tgaaaaagag caggctggtc tccttcctcg ggatgctcgc tctcccttcc
+      601 cggtcctact tcggattcac gggatatgat gagaggatgg tacgtgagat ggagggcctc
+      661 gggccctcag ggtccaccta cgtctgcact ctttgggact ccagtcgggc tgaggcctct
+      721 caaaacatgg tgctgcactc catcactcgc agtcatgaag agaatcttga acgttatgaa
+      781 atatggagaa ctaacccttt ctctgagtct gcagaggagc tgcgagacag agtcaaagga
+      841 gtctctgcca agcccttcat ggagacccac cccacgctgg atgcgttgca ctgtgacatc
+      901 ggcaacgcca ctgagttcta caaaatcttc caggatgaga ttggggaggt gtacaaaaag
+      961 gtcaacccaa gccgggagga gcggcgcagc tggagggctg ccctggataa acagctgagg
+     1021 aagaagatga agcttaaacc ggtaatgagg atgaatggga actatgcccg ccggctaatg
+     1081 acactggagg ctgtggaggt tgtgtgtgag ctggtgccct cagaggacag gagagaggcc
+     1141 ttgagggagc ttatgaggct ctacctccag atgaagcctg tgtggcgtgc cacctgtcca
+     1201 gccaaggagt gccccgatca gctgtgccgc tacagcttta actcccagcg cttcgccgac
+     1261 ctcctctcct ccaccttcaa atacaggtac aatggaaaga taaccaatta tctgcacaag
+     1321 accctggcac atgtgcccga gatcatagag agagatggat ccatcggagc ctgggccagc
+     1381 gaggggaatg agtcggcaaa caaactgttc aggcgttttc ggaagatg
+//
+LOCUS       EU167776                1428 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Lethrinus atlanticus recombination-activating protein 1 (RAG1) gene,
+            partial cds.
+ACCESSION   EU167776
+VERSION     EU167776.1  GI:166092389
+KEYWORDS    .
+SOURCE      Lethrinus atlanticus (Atlantic emperor)
+  ORGANISM  Lethrinus atlanticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Lethrininae;
+            Lethrinus.
+REFERENCE   1  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     A molecular analysis of the Perciformes using the nuclear RAG1 gene
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-SEP-2007) Department of Biological Sciences, Old
+            Dominion University, Mills Godwin Building, Norfolk, VA 23529, USA
+FEATURES             Location/Qualifiers
+     source          1..1428
+                     /db_xref="taxon:182649"
+                     /mol_type="genomic DNA"
+                     /organism="Lethrinus atlanticus"
+     gene            <1..>1428
+                     /gene="RAG1"
+     mRNA            <1..>1428
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+     CDS             <1..>1428
+                     /codon_start=1
+                     /db_xref="GI:166092390"
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+                     /protein_id="ABY82210.1"
+                     /translation="TLRATEKELLPGFHQFEWQPALKNVSTSCDVGIINGLSGWASSVD
+                     DAPADTITRRFRYDVALVSALKDLEEDIMEGLRENGMDDSTCTSGFRVMIKESCDGMGD
+                     VSEKHGGGPVVPEKAVRFSFTVMSVSVLADGKEEEVTIFREPKPNSELSCKPLCLMFVD
+                     ESDHETLTAILWPIVAERNAMKESRLILSIGGLPRSFRFHFRGTGYDEKMVREMEGLEA
+                     SGSTYVCTLCDSSRAEASQNMVLHSITRSHEENLERYEIWRTNPFSESAEELRDRVKGV
+                     SAKPFMETHPTLDALHCDIGNATEFYKIFQDEIGEVYKKVNPSREERRSWRAALDKQLR
+                     KKMKLKPVMRMNGNYARRLMTLEAVEVVCELVPSEDRREALRELIRLYLQMKPVWRATC
+                     PAEECPDQLCRYSFNSQRFADLLSSTFKYRYNGKITNYLHKTLAHVPEIIERDGSIGAW
+                     ASEGNESANKLFRRFRKM"
+ORIGIN
+        1 actctccgag ccactgaaaa ggagcttctc ccaggctttc accagtttga atggcagcca
+       61 gctctcaaga atgtgtctac atcttgcgat gttggcatta ttaatgggct ttctggatgg
+      121 gcctcctcag tggatgacgc gccagctgac accatcactc ggcggtttcg ctatgatgtg
+      181 gcactggtgt cagcattaaa ggatctggag gaggacatca tggaggggct gagagagaac
+      241 ggtatggatg acagcacttg cacctcaggc ttcagagtca tgatcaagga atcttgcgac
+      301 gggatgggcg atgtcagtga gaagcacggt ggaggaccag tcgttcctga gaaggctgta
+      361 cgcttctctt tcactgttat gtctgtctct gtcctggcag acggcaagga ggaagaggtt
+      421 accatcttca gggagccgaa gccaaactca gaactgtcat gtaagcccct ttgcctgatg
+      481 tttgtggatg agtcagacca tgagacactc acagccatcc tgtggcctat cgttgccgag
+      541 cgcaatgcga tgaaagagag caggctcatc ctatccatcg gtggactgcc tcgctccttc
+      601 cgctttcact tcagaggcac aggatatgat gagaagatgg tacgtgagat ggagggcctc
+      661 gaggcctcag ggtccaccta cgtctgcact ctttgtgact ccagtcgtgc tgaggcctct
+      721 caaaacatgg tgctgcactc catcactcgc agtcatgaag agaatcttga acgttatgaa
+      781 atatggagaa ctaacccttt ctctgagtct gcagaggagc tgcgagacag agtcaaagga
+      841 gtctctgcca agcccttcat ggagacccac cccacgctgg atgcgttgca ctgcgacatc
+      901 ggcaacgcca ctgagttcta caaaatcttc caggatgaga ttggggaggt gtacaaaaag
+      961 gtcaacccaa gccgggagga gcggcgcagc tggagggctg ccctggataa acagctgagg
+     1021 aagaagatga agcttaaacc ggtaatgagg atgaatggga actatgcccg ccggctaatg
+     1081 acactggagg ctgtggaagt tgtgtgtgag ctggtgccct cagaggacag gagagaggcc
+     1141 ttgagggagc ttataaggct ctacctccag atgaagcctg tgtggcgcgc cacctgtcca
+     1201 gccgaggagt gccccgatca gctgtgccgc tacagcttta actcccagcg cttcgccgac
+     1261 ctcctctcct ccaccttcaa atacaggtac aatggaaaga taaccaatta tctgcacaag
+     1321 accctggcac atgtgcccga gatcatagag agagatggat ccatcggagc ctgggccagc
+     1381 gaggggaatg agtcggcaaa caaactgttc aggcgttttc ggaagatg
+//
+LOCUS       JX189827                1371 bp    DNA     linear   VRT 07-NOV-2012
+DEFINITION  Lethrinus erythracanthus recombinase activating protein 1 (RAG1)
+            gene, exon 3 and partial cds.
+ACCESSION   JX189827
+VERSION     JX189827.1  GI:394339703
+KEYWORDS    .
+SOURCE      Lethrinus erythracanthus (orange-spotted emperor)
+  ORGANISM  Lethrinus erythracanthus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Lethrininae;
+            Lethrinus.
+REFERENCE   1  (bases 1 to 1371)
+  AUTHORS   Wainwright,P.C., Smith,W.L., Price,S.A., Tang,K.L., Sparks,J.S.,
+            Ferry,L.A., Kuhn,K.L., Eytan,R.I. and Near,T.J.
+  TITLE     The Evolution of Pharyngognathy: A Phylogenetic and Functional
+            Appraisal of the Pharyngeal Jaw Key Innovation in Labroid Fishes and
+            Beyond
+  JOURNAL   Syst. Biol. 61 (6), 1001-1027 (2012)
+   PUBMED   22744773
+REFERENCE   2  (bases 1 to 1371)
+  AUTHORS   Wainwright,P.C., Smith,W.L., Price,S.A., Tang,K.L., Sparks,J.S.,
+            Ferry,L.A., Kuhn,K.L., Eytan,R.I. and Near,T.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JUN-2012) Ecology & Evolutionary Biology, Yale
+            University, 21 Sachem St, New Haven, CT 06520, USA
+FEATURES             Location/Qualifiers
+     source          1..1371
+                     /db_xref="taxon:182651"
+                     /isolate="LertA"
+                     /mol_type="genomic DNA"
+                     /organism="Lethrinus erythracanthus"
+                     /specimen_voucher="YFTC 12562"
+     gene            <1..>1371
+                     /gene="RAG1"
+     mRNA            <1..>1371
+                     /gene="RAG1"
+                     /product="recombinase activating protein 1"
+     CDS             <1..>1371
+                     /codon_start=1
+                     /db_xref="GI:394339704"
+                     /gene="RAG1"
+                     /product="recombinase activating protein 1"
+                     /protein_id="AFN28767.1"
+                     /translation="GFHQFEWQPALKNVSTSCDVGIINGLSGWASSVDDAPADTITRRF
+                     RYDVALVSALKDLEEDIMEGLRENGMDDSTCTSGFRVMIKESCDGMGDVSEKHGGGPVV
+                     PEKAVRFSFTVMSVSVLADGKEEEVTIFREPKPNSELSCKPLCLMFVDESDHETLTAIL
+                     WPIVAERNAMKESRLILSIGGLPRSFRFHFRGTGYDEKMVREMEGLEASGSTYVCTLCD
+                     SSRAEASQNMVLHSITRSHEENLERYEIWRTNPFSESAEELRDRVKGVSAKPFMETHPT
+                     LDALHCDIGNATEFYKIFQDEIGEVYKKVNPSREERRSWRAALDKQLRKKVKLKPVMRM
+                     NGNYARRLMTLEAVEVVCELVPSEDRREALRELMRLYLQMKPVWRATCPAEECPDQLCR
+                     YSFNSQRFADLLSSTFKYRYNGKITNYLHKTLAHVPEIIERDGSIGAWASEGNESANK"
+     exon            <1..>1371
+                     /gene="RAG1"
+                     /number=3
+ORIGIN
+        1 ggctttcacc agtttgaatg gcagccagct ctcaagaatg tgtctacatc ttgcgatgtt
+       61 ggcattatta atgggctttc tggatgggcc tcctcagtgg atgacgcgcc agctgacacc
+      121 atcactcggc ggtttcgcta tgatgtggca ctggtgtcag cattaaagga tctggaggag
+      181 gacatcatgg aggggctgag agagaatggt atggatgaca gcacttgcac ctcaggcttc
+      241 agagtcatga tcaaggaatc ttgcgacgga atgggcgatg tcagtgagaa gcatggtgga
+      301 ggaccagtcg tccctgagaa ggctgtacgc ttctctttca ctgttatgtc tgtctctgtc
+      361 ctggcagacg gcaaggagga agaagttacc atcttcaggg agccgaagcc aaactcagaa
+      421 ctgtcatgta agcccctttg cctaatgttt gtggatgagt cagaccacga gacactcaca
+      481 gccatcctgt ggcctatcgt tgcagagcgc aatgcgatga aagagagcag gctcatccta
+      541 tccatcggtg gactgcctcg ctccttccgc tttcacttca gaggcacagg atatgatgag
+      601 aagatggtac gtgagatgga gggcctcgag gcctcagggt ccacctacgt ctgcactctt
+      661 tgtgactcca gtcgggctga ggcctctcaa aacatggtgc tgcactccat cactcgcagt
+      721 catgaagaga atcttgaacg ttatgaaata tggagaacta accctttctc tgagtctgca
+      781 gaggagctgc gagacagagt caaaggagtc tctgccaagc ccttcatgga gacccacccc
+      841 acgctggatg cattgcactg cgacatcggc aacgccactg agttctacaa aatcttccag
+      901 gatgagattg gggaggtgta caaaaaggtc aacccaagcc gcgaggagcg gcgcagctgg
+      961 agggctgccc tggataaaca gctgaggaag aaggtgaagc ttaaaccggt aatgaggatg
+     1021 aatgggaact atgcccgccg actaatgaca ctggaggctg tggaggtggt gtgtgagctg
+     1081 gtgccctcag aggacaggag agaggccttg agggagctaa tgaggctcta cctccagatg
+     1141 aagcctgtgt ggcgtgccac ctgtccagct gaggagtgcc ccgatcagct gtgccgctac
+     1201 agctttaact cccagcgctt cgccgaccta ctctcctcca ccttcaaata caggtacaat
+     1261 ggaaaaataa ccaattatct ccacaagacc ctggcacatg tgcctgagat catagagaga
+     1321 gatggatcca tcggagcctg ggccagcgag gggaatgagt cggcaaacaa a
+//
+LOCUS       EU167777                1428 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Lethrinus haematopterus recombination-activating protein 1 (RAG1)
+            gene, partial cds.
+ACCESSION   EU167777
+VERSION     EU167777.1  GI:166092391
+KEYWORDS    .
+SOURCE      Lethrinus haematopterus (Chinese emperor)
+  ORGANISM  Lethrinus haematopterus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Lethrininae;
+            Lethrinus.
+REFERENCE   1  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     A molecular analysis of the Perciformes using the nuclear RAG1 gene
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-SEP-2007) Department of Biological Sciences, Old
+            Dominion University, Mills Godwin Building, Norfolk, VA 23529, USA
+FEATURES             Location/Qualifiers
+     source          1..1428
+                     /db_xref="taxon:490264"
+                     /mol_type="genomic DNA"
+                     /organism="Lethrinus haematopterus"
+     gene            <1..>1428
+                     /gene="RAG1"
+     mRNA            <1..>1428
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+     CDS             <1..>1428
+                     /codon_start=1
+                     /db_xref="GI:166092392"
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+                     /protein_id="ABY82211.1"
+                     /translation="TLRETEKELLPGFHQFEWQPALKNVSTSCGVGLINGLSGWASSVD
+                     DAPADTITRRFRYDVALVSALKDLEEDIMEGLRENGMDDSTCTSGFRVMIKESCDGMGD
+                     VSEKHGGGPVVPEKAVRFSFTVMSVSVLADGKEEEVTIFREPKPNSELSCKPLCLMFVD
+                     ESDHETLTAILWPIVAERNAMKESRLILSIGGLPRSFRFHFRGTGYDEKMVREMEGLEA
+                     SGSTYVCTLCDSSRAEASQNMVLHSITRSHEEILNRYEIWRTNPSSESVDELRDQVKGM
+                     SAKPFMEPHATLGALHCDIGNATEFYKIFQDEIGEVYKKVNPSREERRSWRAALDKQLR
+                     KKMKLKPVMRMNGNYARRLMTLEAVEVVCELVPSEDRREALRELMRLYLQMKPVWRATC
+                     PAKECPDQLCRYSFNSQRFADLLSSTFKYRYNGKITNYLHKTLAHVPEIIERDGSIGAW
+                     ASEGNESASKLFRRFQQM"
+ORIGIN
+        1 actctccgag aaacagagaa ggagcttctc ccaggctttc accagtttga atggcagcca
+       61 gctctcaaga atgtgtctac gtcttgcggt gttggcctta ttaatgggct ttctggatgg
+      121 gcctcctcag tggatgacgc gccagctgac accatcactc ggcggtttcg ctatgatgtg
+      181 gcactggtgt cagcattaaa agatctggag gaggacatca tggaggggct gagagagaac
+      241 ggtatggatg acagcacttg cacctcaggc ttcagagtca tgatcaagga atcttgcgac
+      301 gggatgggcg atgtcagtga gaagcacggt ggaggaccag tcgttcctga gaaagctgta
+      361 cgcttctctt tcactgttat gtctgtctct gtcctggcag acggcaagga ggaagaggtt
+      421 accatcttca gggagccgaa gccaaactca gaactgtcat gtaagcccct ttgcctgatg
+      481 tttgtggatg agtcagacca cgagacactc acagccatcc tgtggcctat cgttgcagag
+      541 cgcaatgcaa tgaaagagag caggctcatc ctatccatcg ggggactgcc tcgctccttc
+      601 cgctttcact tcagaggcac aggatacgat gagaagatgg tacgtgagat ggagggcctc
+      661 gaggcctcag ggtccaccta cgtctgcact ctttgtgact ccagtcgggc cgaggcctct
+      721 caaaacatgg tgctgcactc catcactcgc agtcatgaag agatcttgaa ccgttatgaa
+      781 atatggagaa ccaacccctc atcggagtct gtagatgagc tgcgagacca agtcaaaggg
+      841 atgtcggcca agcccttcat ggaaccccac gctacgttgg gtgcactgca ctgcgacatc
+      901 ggcaacgcca ctgagttcta caaaatcttc caggatgaga ttggggaggt gtacaaaaag
+      961 gtcaacccaa gccgggagga gcggcgcagc tggagggctg ccctggataa acagctgagg
+     1021 aagaagatga agcttaaacc ggtaatgagg atgaatggga actatgcccg ccggctaatg
+     1081 acactggagg ctgtggaggt tgtgtgtgag ctggtgccct cagaggacag gagggaggcc
+     1141 ttgagggagc ttatgaggct ctacctccag atgaagcctg tgtggcgtgc cacctgtcca
+     1201 gccaaggagt gccctgacca gctgtgccgc tacagcttta actcccagcg ctttgccgac
+     1261 ctcctctcct ccaccttcaa atacaggtac aatggaaaga taaccaatta tctgcacaag
+     1321 accctggcac atgtgcccga gatcatagag agagatggat ccatcggagc ctgggccagc
+     1381 gaggggaatg agtcggcaag caaactgttc aggcgttttc aacagatg
+//
+LOCUS       EU167778                1428 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Lethrinus harak recombination-activating protein 1 (RAG1) gene,
+            partial cds.
+ACCESSION   EU167778
+VERSION     EU167778.1  GI:166092393
+KEYWORDS    .
+SOURCE      Lethrinus harak (thumbprint emperor)
+  ORGANISM  Lethrinus harak
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Lethrininae;
+            Lethrinus.
+REFERENCE   1  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     A molecular analysis of the Perciformes using the nuclear RAG1 gene
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-SEP-2007) Department of Biological Sciences, Old
+            Dominion University, Mills Godwin Building, Norfolk, VA 23529, USA
+FEATURES             Location/Qualifiers
+     source          1..1428
+                     /db_xref="taxon:182654"
+                     /mol_type="genomic DNA"
+                     /organism="Lethrinus harak"
+     gene            <1..>1428
+                     /gene="RAG1"
+     mRNA            <1..>1428
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+     CDS             <1..>1428
+                     /codon_start=1
+                     /db_xref="GI:166092394"
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+                     /protein_id="ABY82212.1"
+                     /translation="TLRETEKELLPGFHQFEWQPALKNVSTSCDVGIINGLSGWASSVD
+                     DAPADTITRRFRYDVALVSALKDLEEDIMEGLRENGMDDSTCTSGFRVMIKESCDGMGD
+                     VSEKHGGGPVVPEKAVRFSFTVMSVSVLADGKEEEVTIFREPKPNSELSCKPLCLMFVD
+                     ESDHETLTAILWPIVAERNAMKESRLILSIGGLPRSFRFHFRGTGYDEKMVREMEGLEA
+                     SGSTYVCTLCDSSRGEASQNMVLHSITRSHEEILNRYEIWRTNPSSESVDELRDQVKGV
+                     SAKPPMEPHATLRALNCDIGNATEFYKIFQDEIGEVYKKVNPSREERRSWRAALDKQLR
+                     KKMKLKPVMRMNGNYARRLMTLEAVEVMCELVPSEDRREALRELMRLYLQMKPVWRATC
+                     PAKECPEQLCRYSFNSQRFADLLSSTFKYRYNGKITNYLHKTLAHVPEIIERDGSIGAW
+                     ASEGNEWANKLFRRFRKM"
+ORIGIN
+        1 actctccgag aaacagaaaa ggagcttctc ccaggctttc accagtttga atggcagcca
+       61 gctctcaaga atgtgtctac gtcttgcgat gttggcatta ttaatgggct ttctggatgg
+      121 gcttcctcag tggatgacgc gccagctgac accatcactc ggcggtttcg ctatgatgtg
+      181 gcactggtgt cagcattaaa agatctggag gaggacatca tggagggtct gagagagaat
+      241 ggtatggatg acagcacttg cacctcaggc ttcagagtca tgatcaagga atcttgcgac
+      301 gggatgggcg atgtcagtga gaagcacggt ggaggaccag tcgttcctga gaaagctgta
+      361 cgcttctctt tcactgttat gtctgtctct gtcctggcag acggcaagga ggaagaggtt
+      421 accatcttca gggagccgaa gccaaactca gaactgtcat gtaagcccct ttgcctgatg
+      481 tttgtggatg agtcagacca cgagacactc acagccatcc tgtggcctat cgttgcagag
+      541 cgcaatgcga tgaaagagag caggctcatc ctatccatcg gtgggctgcc tcgctccttc
+      601 cgctttcact tcagaggcac aggatacgat gagaagatgg tacgtgagat ggagggcctc
+      661 gaggcctcag ggtccaccta cgtctgcact ctttgtgact ccagtcgggg cgaggcctct
+      721 caaaacatgg tgctgcactc catcactcgc agtcatgaag agatcttgaa ccgttatgaa
+      781 atatggagaa ccaacccctc atcggagtct gtagatgagc tgcgagacca agtcaaaggg
+      841 gtgtcggcca agccacccat ggaaccccac gctacgttgc gtgcactgaa ctgcgacatc
+      901 ggcaacgcca ctgagttcta caaaatcttc caggatgaga ttggggaggt gtacaaaaag
+      961 gtcaacccaa gccgggagga gcggcgcagc tggagggctg ccctggataa acagctgagg
+     1021 aagaagatga agcttaaacc ggtaatgagg atgaatggga actatgcccg tcggctaatg
+     1081 acactggagg ctgtggaggt tatgtgtgag ctggtgccct cagaggacag gagagaggcc
+     1141 ttgagggagc ttatgaggct ctacctccag atgaagcctg tgtggcgtgc cacctgtcca
+     1201 gcgaaggagt gccctgaaca gctgtgccgc tacagcttta actcccagcg ctttgccgac
+     1261 ctcctctcct ccaccttcaa atacaggtac aatggaaaga taaccaatta tctgcacaag
+     1321 accctggcac atgtgcccga gatcatagag agagatggat ccatcggagc ctgggccagc
+     1381 gaggggaatg agtgggcaaa caaactgttc aggcgttttc ggaagatg
+//
+LOCUS       EU167779                1428 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Lethrinus lentjan recombination-activating protein 1 (RAG1) gene,
+            partial cds.
+ACCESSION   EU167779
+VERSION     EU167779.1  GI:166092395
+KEYWORDS    .
+SOURCE      Lethrinus lentjan (pink ear emperor)
+  ORGANISM  Lethrinus lentjan
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Lethrininae;
+            Lethrinus.
+REFERENCE   1  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     A molecular analysis of the Perciformes using the nuclear RAG1 gene
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-SEP-2007) Department of Biological Sciences, Old
+            Dominion University, Mills Godwin Building, Norfolk, VA 23529, USA
+FEATURES             Location/Qualifiers
+     source          1..1428
+                     /db_xref="taxon:182656"
+                     /mol_type="genomic DNA"
+                     /organism="Lethrinus lentjan"
+     gene            <1..>1428
+                     /gene="RAG1"
+     mRNA            <1..>1428
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+     CDS             <1..>1428
+                     /codon_start=1
+                     /db_xref="GI:166092396"
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+                     /protein_id="ABY82213.1"
+                     /translation="TLRDTEKGLLPGFHQFEWQPALKNVSTSCDVGIINGLSGWASSVD
+                     DAPADTITRRFRYDVALVSALKDLEEDIMERVRENGMDDSTCTSGFRVMIKESCDGMGD
+                     VSEKHGGGPVVPEKAVRFSFTVMSVSVLADGKEEEVTIFREPKPNSELSCKPLCLMFVD
+                     ESDHETLTAILWPIVAERNAMKESRLILSGGRLPRSFRFHFRGTGYDEKMVREMEGLEA
+                     SGSTYVCTLCDSSRAEASQNMVLHSITRSHEEILNRYEIWRTNPSSESVDELRDQVKGV
+                     SAKPPMEPNADVRAADCDIGNAHGFYQILQDEIGEVYKKFNPSREEGRSWRAALDKQLR
+                     KKMKLKPVMRMNGNYARRLMTLEAVEVMCELVPSEDRREALRELMRLYLQMKPVWRATC
+                     PAKECPDQLCRYSFNSQRFADLLSSTFKYRYNGKITNYLHKTLAHVPEIIERDGSIGAW
+                     ASEGNESANKLFRRFRKM"
+ORIGIN
+        1 actctccgag acacagagaa ggggcttctc ccaggctttc accagtttga atggcagcca
+       61 gctcttaaga atgtgtctac gtcttgcgat gttggcatta ttaatgggct ctctggatgg
+      121 gcctcctcag tggatgacgc gccagctgac accatcactc ggcggtttcg ctatgatgtg
+      181 gcactggtgt cagcattaaa agatctggag gaggacatca tggaacgggt gagagagaac
+      241 ggtatggatg acagcacttg cacctcaggc ttcagagtca tgatcaagga atcttgcgat
+      301 gggatgggcg atgtcagtga gaagcacggt ggaggaccag tcgttcctga gaaagctgtg
+      361 cgcttctctt tcactgttat gtctgtctct gtcctggcag acggcaagga ggaagaggtt
+      421 accatcttca gggagccgaa gccaaactca gaactgtcat gtaagcccct ttgcctgatg
+      481 tttgtggatg agtcagacca cgagacactc acagccatcc tgtggcctat cgttgcagaa
+      541 cgcaatgcga tgaaagagag caggctcatc ctatccggtg ggagactgcc tcgctccttc
+      601 cgctttcact tcagaggcac aggatacgat gagaagatgg tacgtgagat ggagggcctc
+      661 gaggcctcag ggtccaccta cgtctgcact ctttgtgact ccagtcgggc cgaggcctct
+      721 caaaacatgg tgctgcactc catcactcgc agtcatgaag agatcttgaa ccgttatgaa
+      781 atatggagaa ccaacccctc atctgagtct gtagatgagc tgcgagacca agtcaaaggg
+      841 gtgtcggcca agccccccat ggaacccaac gctgatgtgc gtgccgctga ttgtgacatc
+      901 ggcaacgccc atggattcta ccaaattctc caggatgaga ttggggaggt gtacaaaaag
+      961 ttcaacccaa gccgggagga ggggcgcagc tggagggctg ccctggataa acagctgagg
+     1021 aagaagatga agcttaaacc ggtaatgagg atgaatggga actatgcccg ccggctaatg
+     1081 acactggagg ctgtggaggt tatgtgtgag ctggtgccct cagaggacag gagagaggcc
+     1141 ttgagggagc ttatgaggct ctacctccag atgaagcctg tgtggcgtgc cacctgtcca
+     1201 gccaaggagt gccccgacca gctgtgccgc tacagcttta actcccagcg ctttgccgac
+     1261 ctcctctcct ccaccttcaa atacaggtac aatggaaaga taaccaatta tctgcacaag
+     1321 accctggcac atgtgcccga gatcatagag agagatggat ccatcggagc ctgggccagc
+     1381 gaggggaatg agtcggcaaa caaactgttc aggcgttttc ggaagatg
+//
+LOCUS       EU167774                1428 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Lethrinus obsoletus recombination-activating protein 1 (RAG1) gene,
+            partial cds.
+ACCESSION   EU167774
+VERSION     EU167774.1  GI:166092385
+KEYWORDS    .
+SOURCE      Lethrinus obsoletus (orange striped emperor)
+  ORGANISM  Lethrinus obsoletus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Lethrininae;
+            Lethrinus.
+REFERENCE   1  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     A molecular analysis of the Perciformes using the nuclear RAG1 gene
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-SEP-2007) Department of Biological Sciences, Old
+            Dominion University, Mills Godwin Building, Norfolk, VA 23529, USA
+FEATURES             Location/Qualifiers
+     source          1..1428
+                     /db_xref="taxon:182659"
+                     /mol_type="genomic DNA"
+                     /organism="Lethrinus obsoletus"
+     gene            <1..>1428
+                     /gene="RAG1"
+     mRNA            <1..>1428
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+     CDS             <1..>1428
+                     /codon_start=1
+                     /db_xref="GI:166092386"
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+                     /protein_id="ABY82208.1"
+                     /translation="TLREKEKELLPGFHQFEWQPAHKNVSTSCDVGIINGLSGWASSVD
+                     DAPADTITRRFRYDVALVSALKDLEEDIMERVRENGMDDSTCTSGFRVMIKESCDGMGD
+                     VSEKHGGGPVVPEKAVRFSFTVMSVSVLADGKEEEVTIFREPKPNSELSCKPLCLMFVD
+                     ESDHETLTAILWPIVAERNAMKESRLILSIGGMPRSFRFPFRGTGYDEKMVREMEGLEA
+                     PGTTYVCTLCDSSQREASQDIVLHSITRSHEEILNRYEIWRTNPSSESVDELRDQVKGV
+                     SAKPPMEPNATLRALNCDIGNATEFYKIFQDEIGEVYKKVNPSREERRSWRAALDKQLR
+                     KKMKLKPVMRMNGNYARRLMTLEAVEVMCELVPSEDRREALRELMRLYLQMKPVWRATC
+                     PAKECPDQLCRYSFNSQRFADLLSSTFKYRYNGKITNYLHKTLAHVPEIIERDGSIGAW
+                     ASEGNESANKLFRRFRKM"
+ORIGIN
+        1 actctccgag aaaaagagaa ggagcttctc ccaggctttc accagtttga atggcagcca
+       61 gctcataaga atgtgtctac atcttgcgat gttggcatta ttaatgggct ttctggatgg
+      121 gcctcctcag tggatgacgc gccagctgac accatcactc ggcggtttcg ctatgatgtg
+      181 gcactggtgt cagcattaaa agatctggag gaggacatca tggaacgggt tagagagaac
+      241 ggtatggatg acagcacttg cacctcaggc ttcagagtca tgatcaagga atcttgcgac
+      301 gggatgggcg atgtcagtga gaagcacggc ggaggaccag tcgttcctga gaaagctgta
+      361 cgcttctctt tcactgttat gtctgtctct gtcctggcag acggcaagga ggaagaggtt
+      421 accatcttca gggagccgaa gccaaactca gaactgtcat gtaagcccct ttgcctgatg
+      481 tttgtggatg agtcagacca cgagacactt acagccatcc tgtggcctat cgttgcagaa
+      541 cgcaatgcaa tgaaagagag caggctcatc ctatccatcg gggggatgcc tcgctccttc
+      601 cggtttccct tcagaggcac aggatacgat gagaagatgg tacgtgagat ggagggcctc
+      661 gaggccccgg ggaccaccta cgtctgcact ctttgtgact ccagtcagag agaggcctct
+      721 caggacatag tgctgcactc catcactcgc agtcatgaag agatcttgaa ccgttatgaa
+      781 atatggagaa ccaacccctc atcggagtct gtagatgagc tgcgagacca agtcaaaggg
+      841 gtgtcggcca agccacccat ggaacccaac gctacgttgc gtgcgctgaa ctgcgacatc
+      901 ggcaacgcca ctgagttcta caaaatcttc caggatgaga ttggggaggt atacaaaaag
+      961 gtcaacccaa gccgggagga gcggcgcagc tggagggctg ccctggataa acagctgaga
+     1021 aagaagatga agcttaaacc ggtaatgagg atgaatggga actatgcccg ccggctaatg
+     1081 acactggagg ctgtggaggt tatgtgtgag ctggtgccct cagaggacag gagagaggcc
+     1141 ttgagggagc ttatgaggct ctacctccag atgaagcctg tgtggcgtgc cacctgtcca
+     1201 gccaaggagt gccccgacca gctgtgccgc tacagcttta actcccagcg ctttgccgac
+     1261 ctcctctcct ccaccttcaa atacaggtac aatggaaaga taaccaatta tctgcacaag
+     1321 accctggcac atgtgcccga gatcatagag agagatggat ccatcggagc ctgggccagc
+     1381 gaggggaatg agtcggcaaa caaactgttc aggcgttttc ggaagatg
+//
+LOCUS       EU167780                1428 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Lethrinus olivaceus recombination-activating protein 1 (RAG1) gene,
+            partial cds.
+ACCESSION   EU167780
+VERSION     EU167780.1  GI:166092397
+KEYWORDS    .
+SOURCE      Lethrinus olivaceus (longface emperor)
+  ORGANISM  Lethrinus olivaceus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Lethrininae;
+            Lethrinus.
+REFERENCE   1  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     A molecular analysis of the Perciformes using the nuclear RAG1 gene
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-SEP-2007) Department of Biological Sciences, Old
+            Dominion University, Mills Godwin Building, Norfolk, VA 23529, USA
+FEATURES             Location/Qualifiers
+     source          1..1428
+                     /db_xref="taxon:182660"
+                     /mol_type="genomic DNA"
+                     /organism="Lethrinus olivaceus"
+     gene            <1..>1428
+                     /gene="RAG1"
+     mRNA            <1..>1428
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+     CDS             <1..>1428
+                     /codon_start=1
+                     /db_xref="GI:166092398"
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+                     /protein_id="ABY82214.1"
+                     /translation="TLRETEKELLPGFHQFEWQPALKNVSTSCSVGIINGLSGWASSVD
+                     DAPADTITRRFRYDVALVSALKDLEEDIMEGLRENGMDDSTCTSGFRVMIKESCDGMGD
+                     VSEKHGGGPVVPEKAVRFSFTVMSVSVLADGKEEEVTIFTGPKPNSELSCKPLCLMFVD
+                     ESDHETLTAILWPIVAERNAMKESRLILSIGGLPRSFRFHFRGTGYDEKMVREMEGLEA
+                     SGSTYVCTLCDSSRAEASQNMVLHSITRSHEEILNRYEIWRTNPSSESVDELRDQVKGV
+                     SAKPFMEPHATLRALNCDIGNATEFYKIFQDEIGEVYKKVNPSREERRSWRAALDKQLR
+                     KKMKLKPVMRMNGNYARRLMTLEAVEVMCELVPSEDRREALRELMRLYLQMKPVWRATC
+                     PAKECPDQLCRYSFNSQRFADLLSSTFKYRYNGKITNYLHKTLAHVPEIIERDGSIGAW
+                     ASEGNESANKLFRRFRKM"
+ORIGIN
+        1 actctccgag aaacagagaa ggagcttctc ccaggctttc accagtttga atggcagcca
+       61 gctctcaaga atgtgtctac atcttgcagt gttggcatta ttaatgggct ctctggatgg
+      121 gcttcctcag tggatgacgc gccagctgac accatcactc ggcggtttcg ctatgatgtg
+      181 gcactggtgt cagcattaaa ggatctggag gaggacatca tggaggggct gagagagaat
+      241 ggtatggatg acagcacttg cacctcaggc ttcagagtca tgatcaagga atcttgcgat
+      301 gggatgggcg atgtcagtga gaagcacggt ggaggaccag tcgttcctga gaaagctgta
+      361 cgcttctctt tcactgttat gtctgtctct gtcctggcag acggcaagga ggaagaggtt
+      421 accatcttta caggaccaaa gccaaactca gaactgtcat gtaagcccct ttgcctgatg
+      481 tttgtggatg agtcagacca cgagacactc acagccatcc tgtggcctat cgttgcagag
+      541 cgcaatgcaa tgaaagagag caggctcatc ctatccatcg ggggactgcc tcgctccttc
+      601 cgctttcact tcagaggcac aggatacgat gagaagatgg tacgtgagat ggagggcctc
+      661 gaggcctcag ggtccaccta cgtctgcact ctttgtgact ccagtcgggc cgaggcctct
+      721 caaaacatgg tgctgcactc catcactcgc agtcatgaag agatcctgaa ccgttatgaa
+      781 atatggagaa ccaacccctc atctgagtct gtagatgagc tgcgagacca agtcaaaggg
+      841 gtgtctgcca agcccttcat ggaaccccac gctacgttgc gtgcactgaa ctgtgacatc
+      901 ggcaacgcca ctgagttcta caaaatcttc caggatgaga ttggggaggt gtacaaaaag
+      961 gtcaacccaa gccgggagga acggcgcagc tggagggctg ccctggataa acagctgagg
+     1021 aagaagatga agcttaaacc ggtaatgagg atgaatggga actatgcccg ccggctaatg
+     1081 acactggagg ctgtggaggt tatgtgtgag ctggtgccct cagaggacag gagggaggcc
+     1141 ttgagggagc ttatgaggct ctacctccag atgaagcctg tgtggcgtgc cacctgtcca
+     1201 gccaaggagt gccctgacca gctgtgccgc tacagcttta actcccagcg ctttgccgac
+     1261 ctcctctcct ccaccttcaa atacaggtac aatggaaaga taaccaatta tctgcacaag
+     1321 accctggcac atgtgcccga gatcatagag agagatggat ccatcggagc ctgggccagc
+     1381 gaggggaatg agtcggcaaa caaactgttc aggcgttttc ggaagatg
+//
+LOCUS       HQ676658                1428 bp    DNA     linear   VRT 25-JUL-2016
+DEFINITION  Lethrinus ornatus recombination-activating protein 1 (RAG1) gene,
+            partial cds.
+ACCESSION   HQ676658
+VERSION     HQ676658.1  GI:332168006
+KEYWORDS    .
+SOURCE      Lethrinus ornatus (ornate emperor)
+  ORGANISM  Lethrinus ornatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Lethrininae;
+            Lethrinus.
+REFERENCE   1  (bases 1 to 1428)
+  AUTHORS   Sanciangco,M.D., Rocha,L.A. and Carpenter,K.E.
+  TITLE     A molecular phylogeny of the Grunts (Perciformes: Haemulidae)
+            inferred using mitochondrial and nuclear genes
+  JOURNAL   Zootaxa 2966, 37-50 (2011)
+REFERENCE   2  (bases 1 to 1428)
+  AUTHORS   Sanciangco,M.D., Rocha,L.A. and Carpenter,K.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-DEC-2010) Department of Biological Sciences, Old
+            Dominion University, Mills Godwin Building, Hampton Blvd., Norfolk,
+            VA 23529, USA
+FEATURES             Location/Qualifiers
+     source          1..1428
+                     /PCR_primers="fwd_name: RAG1_2510F, fwd_seq:
+                     tggccatccgggtmaacac, fwd_name: RAG1F1, fwd_seq:
+                     ctgagctgcagtcagtaccataagatgt, rev_name: RAG1R1, rev_seq:
+                     ctgagtccttgtgagcttccatraaytt, rev_name: RAG1R2, rev_seq:
+                     tgagcctccatgaacttctgaagrtaytt"
+                     /db_xref="taxon:119721"
+                     /mol_type="genomic DNA"
+                     /organism="Lethrinus ornatus"
+     gene            <1..>1428
+                     /gene="RAG1"
+     mRNA            <1..>1428
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+     CDS             <1..>1428
+                     /codon_start=1
+                     /db_xref="GI:332168007"
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+                     /protein_id="AEE25688.1"
+                     /translation="TLRAAEKELLPGFHQFEWQPALKNVSTSCNVGIINGLSGWASSVD
+                     DSPADTITRRFRYDVALVSALKDLEEDIMEGLRENGMDDSACTSGFRVMIKESCDGMGD
+                     VSEKHGGGPVVPEKAVRFSFTVMSVSVLADDKEEEVTIFREPKPNSELSCKPLCLMFVD
+                     ESDHETLTAILWPIVAERNAMKESRLILSIGGLPRSFRFHFRGTGYDEKMVREMEGLEA
+                     SGSTYFCTLCDSSRAEASQNMVLHSITRSQEENLNGYEIWRTNPFSESAEELRDRVKGV
+                     SAKPFMETHPTLDALHCDIGNATEFYKIFQDEIGEVYKKVNPSREERRSWRAALDKQLR
+                     KKMKLKPVMRMNGNYARRLMTLEAVEVMCELVPSEDRREALRELMRLYLQMKPVWRATC
+                     PAKECPDQLCRYSFNSQRFADLLSSTFKYRYNGKITNYLHKTLAHVPEIIERDGSIGAW
+                     ASEGNESANKLFRRFRKM"
+ORIGIN
+        1 actctgcgag ccgctgaaaa ggagcttctc cctggctttc accagtttga atggcagcca
+       61 gctctcaaga atgtgtctac atcttgcaat gttggcatta ttaatgggct ttctggatgg
+      121 gcctcctcag tggatgactc gccagctgac accatcactc ggcggtttcg ctatgatgtg
+      181 gcactggtgt cagcattaaa ggatctggag gaggacatca tggaggggct gagagagaat
+      241 ggtatggatg acagcgcttg cacctcaggc ttcagagtca tgatcaagga atcttgcgac
+      301 gggatgggcg atgtcagtga gaagcacggt ggaggaccag tcgttcctga gaaagctgta
+      361 cgcttctctt tcactgttat gtctgtctct gtcctggcag acgacaagga ggaagaggtt
+      421 accatcttca gggagccgaa gccaaactca gaactgtcat gtaagcccct ttgcctgatg
+      481 tttgtggatg agtcagacca cgagacactc acagccatcc tgtggcctat cgttgcagag
+      541 cgcaatgcga tgaaagagag caggctcatc ctatccatcg gtggactgcc tcgctccttc
+      601 cgctttcact tcagaggcac aggatacgat gagaagatgg tacgtgagat ggaggggctt
+      661 gaggcttcag ggtccaccta cttctgcact ctgtgtgact ccagtcgggc tgaggcctct
+      721 caaaacatgg tgctgcactc catcactcgc agtcaggaag agaatctgaa cggttatgaa
+      781 atatggagaa ccaacccctt ttctgagtct gcagaggagc tgcgagacag agtcaaagga
+      841 gtctctgcca agcccttcat ggagacccat cccacgctgg atgcgttgca ctgcgacatc
+      901 ggcaacgcca ctgagttcta caaaatcttc caggatgaga tcggggaggt gtacaaaaag
+      961 gtcaacccaa gccgggagga gcggcgcagc tggagggcag ccctggataa acagctgagg
+     1021 aagaagatga agcttaaacc ggtaatgagg atgaatggga actatgcccg ccggctaatg
+     1081 accctggagg ccgtggaggt tatgtgtgag ctggtgccct cagaggacag gagagaggcc
+     1141 ttgagggagc ttatgaggct ctacctccag atgaagcctg tgtggcgtgc cacctgtcca
+     1201 gccaaggagt gccccgatca gctgtgccgc tacagcttta actcccagcg ctttgccgac
+     1261 ctcctctcct ccaccttcaa atacaggtac aatggaaaga taaccaatta tctgcacaag
+     1321 accctggcac atgtgcccga gatcatagag agagatggat ccatcggagc ctgggccagc
+     1381 gaggggaatg agtcggcaaa caaactgttc aggcgcttcc ggaagatg
+//
+LOCUS       EU167781                1428 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Lethrinus xanthochilus recombination-activating protein 1 (RAG1)
+            gene, partial cds.
+ACCESSION   EU167781
+VERSION     EU167781.1  GI:166092399
+KEYWORDS    .
+SOURCE      Lethrinus xanthochilus (yellowlip emperor)
+  ORGANISM  Lethrinus xanthochilus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Lethrininae;
+            Lethrinus.
+REFERENCE   1  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     A molecular analysis of the Perciformes using the nuclear RAG1 gene
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-SEP-2007) Department of Biological Sciences, Old
+            Dominion University, Mills Godwin Building, Norfolk, VA 23529, USA
+FEATURES             Location/Qualifiers
+     source          1..1428
+                     /db_xref="taxon:490265"
+                     /mol_type="genomic DNA"
+                     /organism="Lethrinus xanthochilus"
+     gene            <1..>1428
+                     /gene="RAG1"
+     mRNA            <1..>1428
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+     CDS             <1..>1428
+                     /codon_start=1
+                     /db_xref="GI:166092400"
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+                     /protein_id="ABY82215.1"
+                     /translation="TLRATEKELLPGFHQFEWHPALKNVSTSCDVGIINGLSGWASSVD
+                     DAPADTITRRFRYDVALVSALKDLEEDIMEGLRENGMDDSTCTSGFRVMIKESCDGMGD
+                     VSEKHGGGPVVPEKAVRFSFTVMSVSVLADGKEEEVTIFREPKPNSELSCKPLCLMFVD
+                     ESDHETLTAVLWPIVAESNAMKERTLILSIGGLPRSFRFHFGFTGYDEKMVREMEGLGA
+                     SGSTYVCTLCDSSRAEASQNMVLHSITRSHEENLNVYEIWRTNPFSESAEELRDRVKGV
+                     SAKPFMETHPTLDALHCDIGNATEFYKIFQDEIGEVYKKVNPSREERRSWRAALDKQLR
+                     KKMKLKPVMRMNGNYARRLMTLEAVEVVCELVPSEDRREALRELIRLYLQMKPVWRATC
+                     PAEECPDQLCRYSFNSQRFADLLSSTFKYRYNGKITNYLHKTLAPMPEIIERDRSIGAW
+                     ASEGNESANKLFRHFRKM"
+ORIGIN
+        1 actctccgag ccacagaaaa ggagcttctc ccaggctttc accagtttga atggcaccca
+       61 gctctcaaga atgtgtctac atcttgcgat gttggcatta ttaatgggct ttctggatgg
+      121 gcctcctcag tggatgacgc gccagctgac accatcactc ggcggtttcg ctatgatgtg
+      181 gcactggtgt cagcattaaa ggatctggag gaggacatca tggaggggct gagagagaac
+      241 ggtatggatg acagcacttg cacctcaggc ttcagagtca tgatcaagga atcttgcgac
+      301 gggatgggcg atgtcagtga gaagcacggt ggaggaccag tcgttcctga gaaggctgta
+      361 cgcttctctt tcactgttat gtctgtctct gtcctggcag acggcaagga ggaagaggtt
+      421 accatcttca gggagccgaa accaaactca gaactgtcat gtaagcccct ttgcctgatg
+      481 tttgtggatg agtcagacca tgagacactc acagccgtcc tgtggcctat cgttgccgag
+      541 agcaatgcga tgaaagagag aacgctcatc ctatccatcg gtggactccc tcgctccttc
+      601 cgctttcact tcggattcac gggatatgat gagaagatgg tacgtgagat ggagggcctc
+      661 ggggcctcag ggtccaccta cgtctgcact ctttgtgact ccagtcgggc tgaggcctct
+      721 caaaacatgg tgctgcattc catcactcgc agtcatgaag agaatctgaa cgtttatgaa
+      781 atatggagaa ctaacccttt ctctgagtct gcagaggagc tgcgagacag agtcaaagga
+      841 gtctctgcca agcccttcat ggagacccac cccacgctgg atgcgttgca ctgcgacatc
+      901 ggcaacgcca ctgagttcta caaaatcttc caggatgaga ttggggaggt gtacaaaaag
+      961 gtcaacccaa gccgggagga gcggcgcagc tggagggctg ccctggataa acagctgagg
+     1021 aagaagatga agcttaaacc ggtaatgagg atgaatggga actatgcccg ccggctaatg
+     1081 acactggagg ctgtggaagt tgtgtgtgag ctggtgccct cagaggacag gagagaggcc
+     1141 ttgagggagc ttataaggct ctacctccag atgaagcctg tgtggcgcgc cacctgtcca
+     1201 gccgaggagt gccccgatca gctgtgccgc tacagcttta actcccagcg cttcgccgac
+     1261 ctcctctcct ccaccttcaa atacaggtac aatggaaaga taaccaatta tctgcacaag
+     1321 accctggccc ccatgcccga gataatagag agagatcgct cgatcggagc ctgggccagc
+     1381 gaggggaatg agtcggcaaa caaactgttc aggcattttc ggaagatg
+//
+LOCUS       KP722969                1472 bp    DNA     linear   VRT 24-APR-2015
+DEFINITION  Monotaxis grandoculis isolate Let91 recombination activating protein
+            1 (RAG1) gene, partial cds.
+ACCESSION   KP722969
+VERSION     KP722969.1  GI:808040555
+KEYWORDS    .
+SOURCE      Monotaxis grandoculis (humpnose big-eye bream)
+  ORGANISM  Monotaxis grandoculis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Monotaxinae;
+            Monotaxis.
+REFERENCE   1  (bases 1 to 1472)
+  AUTHORS   Lo,P.C., Liu,S.H., Chao,N.L., Nunoo,F.K., Mok,H.K. and Chen,W.J.
+  TITLE     A multi-gene dataset reveals a tropical New World origin and Early
+            Miocene diversification of croakers (Perciformes: Sciaenidae)
+  JOURNAL   Mol. Phylogenet. Evol. 88, 132-143 (2015)
+   PUBMED   25848970
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1472)
+  AUTHORS   Lo,P.-C., Liu,S.-H., Chao,N.L., Nunoo,F.K.E., Mok,H.-K. and
+            Chen,W.-J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JAN-2015) National Taiwan University, Institute of
+            Oceanography, No. 1, Sec. 4, Roosevelt Road, Taipei 10617, Taiwan
+FEATURES             Location/Qualifiers
+     source          1..1472
+                     /db_xref="taxon:384591"
+                     /isolate="Let91"
+                     /mol_type="genomic DNA"
+                     /organism="Monotaxis grandoculis"
+     gene            <1..>1472
+                     /gene="RAG1"
+     mRNA            <1..>1472
+                     /gene="RAG1"
+                     /product="recombination activating protein 1"
+     CDS             <1..>1472
+                     /codon_start=1
+                     /db_xref="GI:808040556"
+                     /gene="RAG1"
+                     /product="recombination activating protein 1"
+                     /protein_id="AKC94657.1"
+                     /translation="QIFQPLHTLRAAEKELLPGFHQFEWQPALKNVSTSCDVGIINGLS
+                     GWASSVDDSPADTITRRFRYDVALVSALKDLEEDIMEGLRENGMDDSACTSGFRVMIKE
+                     SCDGMGDVSEKHGGGPVVPEKAVRFSFTVMSVSILADGEEEEVTIFREPKPNSELSCKP
+                     LCLMFVDESDHETLTAILGPIVAERNAMTESRLILSIGGLSRSFRFYFRGTGYDEKMVR
+                     EMEGLEASGSTYVCTLCDSSRAEASQNMVLHSITRNHDENLERYEIWRTNPFSESVDEL
+                     RDRVKGVSAKPFMDTHPTLDALHCDIGNATEFYKIFQDEIGEVYQKPNPSRQERRSWRA
+                     ALDKQLRKKMKLKPVMRMNGNYARRLMTLEAMEVVCELVPSEERREALRELMRLYLQMK
+                     PVWRATCPAKECPDQLCRYSFNSQRFADLLSSTFKYRYNGKITNYLHKTLAHVPEIIER
+                     DGSIGAWASEGNESANKLFRRFRKMNARQSKA"
+ORIGIN
+        1 cagatttttc agcccttgca caccctgcga gctgcagaga aggagcttct ccctggtttt
+       61 caccagtttg aatggcagcc agctctcaag aatgtgtcta catcttgcga cgttggcatt
+      121 attaatggac tctctggatg ggcttcctca gtggatgact ccccagctga caccatcact
+      181 cggcggtttc gctatgatgt ggcactggtg tcagcattaa aggatctgga ggaggacatc
+      241 atggaggggc tgagagagaa tgggatggat gacagtgctt gcacctcagg cttcagagtc
+      301 atgatcaagg agtcttgtga cggaatgggt gatgtcagcg agaaacacgg cggaggacca
+      361 gttgttccag agaaggctgt acgcttctct ttcactgtta tgtctgtctc catcctggca
+      421 gacggcgagg aggaagaggt taccatcttc agggagccga agccaaactc agaactgtca
+      481 tgtaagcccc tctgcctgat gtttgtggat gaatcagacc atgagacact cacagccatc
+      541 ctggggccta tcgtggcaga gcgcaacgca atgacagaga gcaggctcat cctgtccata
+      601 ggtggactgt ctcgctcctt ccgcttttac ttcagaggta ccggatatga tgagaagatg
+      661 gtgcgcgaga tggagggcct tgaggcctct gggtccacct acgtttgcac tctctgtgac
+      721 tccagtcgtg cagaggcctc tcaaaacatg gtgctgcact caatcacccg caatcatgac
+      781 gagaatctag aacgttacga aatatggaga acaaacccat tttctgagtc tgtggatgag
+      841 ctgcgagaca gagttaaagg ggtctctgcc aagcccttca tggacaccca tcccacgctg
+      901 gatgcattgc actgcgacat cggcaatgcc actgagtttt acaaaatctt ccaagatgag
+      961 attggagaag tgtaccaaaa gcccaaccca agccggcagg agaggcgcag ctggagggcc
+     1021 gccctggata aacagctgag aaagaagatg aagcttaaac cggtgatgag gatgaatggr
+     1081 aactatgccc gccggctaat gaccctggag gctatggagg tggtgtgtga gctggtgccc
+     1141 tcagaggaga ggagagaggc cctgagggag cttatgagac tctacctcca gatgaagcct
+     1201 gtgtggcgtg ccacctgccc agccaaggag tgccctgacc agctgtgccg ctacagcttt
+     1261 aactcccagc gcttcgccga cctcctctcc tccaccttta aatacaggta caatggaaag
+     1321 ataaccaatt acctgcacaa gaccctggcc cacgtgcctg agatcatcga gagagatggc
+     1381 tccattggag cctgggccag cgaggggaat gagtcagcca acaaactgtt caggcgcttc
+     1441 cggaagatga acgcacgcca gtcaaaggca tt
+//
+LOCUS       JX189828                1371 bp    DNA     linear   VRT 07-NOV-2012
+DEFINITION  Monotaxis grandoculis recombinase activating protein 1 (RAG1) gene,
+            exon 3 and partial cds.
+ACCESSION   JX189828
+VERSION     JX189828.1  GI:394339705
+KEYWORDS    .
+SOURCE      Monotaxis grandoculis (humpnose big-eye bream)
+  ORGANISM  Monotaxis grandoculis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Monotaxinae;
+            Monotaxis.
+REFERENCE   1  (bases 1 to 1371)
+  AUTHORS   Wainwright,P.C., Smith,W.L., Price,S.A., Tang,K.L., Sparks,J.S.,
+            Ferry,L.A., Kuhn,K.L., Eytan,R.I. and Near,T.J.
+  TITLE     The Evolution of Pharyngognathy: A Phylogenetic and Functional
+            Appraisal of the Pharyngeal Jaw Key Innovation in Labroid Fishes and
+            Beyond
+  JOURNAL   Syst. Biol. 61 (6), 1001-1027 (2012)
+   PUBMED   22744773
+REFERENCE   2  (bases 1 to 1371)
+  AUTHORS   Wainwright,P.C., Smith,W.L., Price,S.A., Tang,K.L., Sparks,J.S.,
+            Ferry,L.A., Kuhn,K.L., Eytan,R.I. and Near,T.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JUN-2012) Ecology & Evolutionary Biology, Yale
+            University, 21 Sachem St, New Haven, CT 06520, USA
+FEATURES             Location/Qualifiers
+     source          1..1371
+                     /db_xref="taxon:384591"
+                     /isolate="MgrnA"
+                     /mol_type="genomic DNA"
+                     /organism="Monotaxis grandoculis"
+                     /specimen_voucher="YFTC 12597"
+     gene            <1..>1371
+                     /gene="RAG1"
+     mRNA            <1..>1371
+                     /gene="RAG1"
+                     /product="recombinase activating protein 1"
+     CDS             <1..>1371
+                     /codon_start=1
+                     /db_xref="GI:394339706"
+                     /gene="RAG1"
+                     /product="recombinase activating protein 1"
+                     /protein_id="AFN28768.1"
+                     /translation="GFHQFEWQPALKNVSTSCDVGIINGLSGWASSVDDSPADTITRRF
+                     RYDVALVSALKDLEEDIMEGLRENGMDDSACTSGFRVMIKESCDGMGDVSEKHGGGPVV
+                     PEKAVRFSFTVMSVSILADGEEEEVTIFREPKPNSELSCKPLCLMFVDESDHETLTAIL
+                     GPIVAERNAMTESRLILSIGGLSRSFRFYFRGTGYDEKMVREMEGLEASGSTYVCTLCD
+                     SSRAEASQNMVLHSITRNHDENLERYEIWRTNPFSESVDELRDRVKGVSAKPFMDTHPT
+                     LDALHCDIGNATEFYKIFQDEIGEVYQKPNPSRQERRSWRAALDKQLRKKMKLKPVMRM
+                     NGNYARRLMTLEAMEVVCELVPSEERREALRELMRLYLQMKPVWRATCPAKECPDQLCR
+                     YSFNSQRFADLLSSTFKYRYNGKITNYLHKTLAHVPEIIERDGSIGAWASEGNESANK"
+     exon            <1..>1371
+                     /gene="RAG1"
+                     /number=3
+ORIGIN
+        1 ggttttcacc agtttgaatg gcagccagct ctcaagaatg tgtctacatc ttgcgacgtt
+       61 ggcattatta atggactctc tggatgggct tcctcagtgg atgactcccc agctgacacc
+      121 atcactcggc ggtttcgcta tgatgtggca ctggtgtcag cattaaagga tctggaggag
+      181 gacatcatgg aggggctgag agagaatggg atggatgaca gtgcttgcac ctcaggcttc
+      241 agagtcatga tcaaggagtc ttgtgacgga atgggtgatg tcagcgagaa acacggcgga
+      301 ggaccagttg ttccagagaa ggctgtacgc ttctctttca ctgttatgtc tgtctccatc
+      361 ctggcagacg gcgaggagga agaggttacc atcttcaggg agccgaagcc aaactcagaa
+      421 ctgtcatgta agcccctctg cctgatgttt gtggatgaat cagaccatga gacactcaca
+      481 gccatcctgg ggcctatcgt ggcagagcgc aacgcaatga cagagagcag gctcatcctg
+      541 tccataggtg gactgtctcg ctccttccgc ttttacttca gaggtaccgg atatgatgag
+      601 aagatggtgc gcgagatgga gggccttgag gcctctgggt ccacctacgt ttgcactctc
+      661 tgtgactcca gtcgtgcaga ggcctctcaa aacatggtgc tgcactcaat cacccgcaat
+      721 catgacgaga atctagaacg ttacgaaata tggagaacaa acccattttc tgagtctgtg
+      781 gatgagctgc gagacagagt taaaggggtc tctgccaagc ccttcatgga cacccatccc
+      841 acgctggatg cattgcactg cgacatcggc aatgccactg agttttacaa aatcttccaa
+      901 gatgagattg gagaagtgta ccaaaagccc aacccaagcc ggcaggagag gcgcagctgg
+      961 agggccgccc tggataaaca gctgagaaag aagatgaagc ttaaaccggt gatgaggatg
+     1021 aatgggaact atgcccgccg gctaatgacc ctggaggcta tggaggtggt gtgtgagctg
+     1081 gtgccctcag aggagaggag agaggccctg agggagctta tgagactcta cctccagatg
+     1141 aagcctgtgt ggcgtgccac ctgcccagcc aaggagtgcc ctgaccagct gtgccgctac
+     1201 agctttaact cccagcgctt cgccgacctc ctctcctcca cctttaaata caggtacaat
+     1261 ggaaagataa ccaattacct gcacaagacc ctggcccacg tgcctgagat catcgagaga
+     1321 gatggctcca ttggagcctg ggccagcgag gggaatgagt cagccaacaa a
+//
+LOCUS       EU167783                1428 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Monotaxis grandoculis recombination-activating protein 1 (RAG1)
+            gene, partial cds.
+ACCESSION   EU167783
+VERSION     EU167783.1  GI:166092403
+KEYWORDS    .
+SOURCE      Monotaxis grandoculis (humpnose big-eye bream)
+  ORGANISM  Monotaxis grandoculis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Lethrinidae; Monotaxinae;
+            Monotaxis.
+REFERENCE   1  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     A molecular analysis of the Perciformes using the nuclear RAG1 gene
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1428)
+  AUTHORS   Mahon,A.R., Carpenter,K.E. and Orti,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-SEP-2007) Department of Biological Sciences, Old
+            Dominion University, Mills Godwin Building, Norfolk, VA 23529, USA
+FEATURES             Location/Qualifiers
+     source          1..1428
+                     /db_xref="taxon:384591"
+                     /mol_type="genomic DNA"
+                     /organism="Monotaxis grandoculis"
+     gene            <1..>1428
+                     /gene="RAG1"
+     mRNA            <1..>1428
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+     CDS             <1..>1428
+                     /codon_start=1
+                     /db_xref="GI:166092404"
+                     /gene="RAG1"
+                     /product="recombination-activating protein 1"
+                     /protein_id="ABY82217.1"
+                     /translation="TLRDTEKELLPGFHQFEWQPTLRNVSTSCSVGIINGLSGWASSVD
+                     DSPADTITRRFRYDVALVSALKDLEEDIMEGLRESGMDDSACTSGFRVMIKESCDGMGD
+                     VSEKHGGGPVVPEKAVRFSFTIMSVSVLADGEEEEVTIFREPKPNSELSCKPLCLMFVD
+                     ESDHETLTAILGPVVAERNAMTESRLILSIGGLPRSFRFHFRGTGYDEKMVREMEGLEA
+                     SGSTYVCTLCDSSRAETSQNMVLHSITRSHEENLDRYEIWRTNPSSESVDELRDRVKGV
+                     SAKPSMETHPKLDALHCDIGNATEFYKIFQDEIGEVYQKLNPSREERRSWRAALDKQLR
+                     KKMKLKPVMRMNGNYARRLMTLEAVEVVCELVPSEERREALRELMRLYLQMKPVWRATC
+                     PAKECPDQLCRYSFNSQRFADLLSSTFKYRYNGKITNYLHKTLAHVPEIIERDGSIGAW
+                     ASEGNESANKLFRRFRKM"
+ORIGIN
+        1 actctccgag acacagagaa ggagcttctc ccaggctttc accagtttga atggcagcca
+       61 actctcagga atgtgtctac atcttgcagc gttggcatta ttaatgggct ctctggatgg
+      121 gcttcctcag tggatgactc cccagctgac accatcactc ggcggtttcg ctatgatgtg
+      181 gcactggtgt cagcattaaa ggatctggaa gaggacatca tggaggggct gagagagagt
+      241 gggatggatg acagtgcttg cacctcaggc ttcagagtca tgatcaagga gtcctgtgac
+      301 gggatgggcg atgtcagcga gaaacacggt ggaggaccag ttgttcctga gaaggctgta
+      361 cgtttctctt tcactattat gtctgtctca gtcctggcag acggcgagga ggaagaggtt
+      421 accatcttca gggagccgaa gccaaactca gaactgtcat gtaagcccct ttgcctgatg
+      481 tttgtggatg aatcagacca cgagacactc acagccatcc tagggcctgt agttgcagag
+      541 cgcaatgcaa tgacagagag caggctcatc ctgtccatag gtggactgcc tcgctccttc
+      601 cgctttcact tcagaggcac gggatacgat gagaagatgg tgcgtgagat ggagggcctg
+      661 gaggcctcag ggtccaccta cgtctgcact ctttgtgact ccagtcgggc agagacctct
+      721 caaaacatgg tgctgcactc catcactcgc agtcatgaag agaacttaga ccgttatgaa
+      781 atatggagaa ccaacccctc ctctgagtct gtagatgagc tgcgagacag agtcaaaggg
+      841 gtctctgcca agccatccat ggagacccac cccaagctgg atgcattgca ctgcgacatc
+      901 ggcaacgcca ctgagttcta caaaatcttc caggatgaga ttggggaagt gtaccaaaag
+      961 ctcaacccaa gccgggagga gcggcgcagc tggagggctg ccctggataa acagctgagg
+     1021 aagaagatga agcttaaacc ggtaatgagg atgaatggga actatgcccg ccggctaatg
+     1081 acccttgagg ctgtggaggt ggtgtgtgag ctggtgccct cagaggagag gagggaggcc
+     1141 ctgagggagc tgatgaggct ctacctccag atgaagcctg tgtggcgagc cacctgccca
+     1201 gccaaggagt gccctgacca gctgtgccgc tacagcttta actcccagcg ctttgccgac
+     1261 ctcctctcct ccaccttcaa atacaggtac aatggaaaga taaccaatta cctgcacaag
+     1321 accctggccc acgtgcccga gatcatagag agagatggat ccattggagc ctgggccagc
+     1381 gaggggaatg agtcggcaaa caaactgttc aggcgttttc ggaagatg
+//

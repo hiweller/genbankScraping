@@ -2,18 +2,15 @@
 # 12S, 16S swapped to S12, S16 to avoid initializing variable w/ numbers
 import csv
 import numpy as np
-from Bio import Entrez
+from Bio import Entrez, SeqIO
 import time
 import os
 import sys
+import re
+import glob
 
-S12 = 500
-S16 = 525
-RAG1 = 1200
-RAG2 = 1200
-Rhodopsin = 500
-CytB = 700
-COI = 500
+lengthRestrictions = {'12S':500, '16S':525, 'RAG1':1200, 'RAG2':1200, 'RHODOPSIN':500, 'CYTB':700, 'COI':500}
+
 AmbiguousChars = ['R', 'Y', 'W', 'S', 'M', 'K', 'H', 'B', 'D', 'V', 'X', 'N']
 PropAmThresh = 0.03
 
@@ -61,3 +58,62 @@ def fetchSeq(csvPath, projectName=''):
             out_handle.write(genbank_handle.read())
             out_handle.close()
             genbank_handle.close()
+
+def scrubSeq(csvPath, projectName=''):
+    """Sorting FASTA sequences with following conditions:
+    1) Remove anything with > 0.03 ambiguous character proportion
+    2) Remove anything shorter than recommended minimum gene length for that gene."""
+    gbkFiles = glob.glob('./*.gbk')
+    reader = csv.reader(open(csvPath, 'rb'))
+    geneNames = next(reader)[1:len(next(reader))]
+
+    for gene in gbkFiles:
+
+        KeepPile = []
+        MaybePile = []
+        ThrowawayPile = []
+
+        searchTerms = re.compile(r"(?=("+'|'.join(geneNames)+r"))", re.IGNORECASE)
+        geneName = re.findall(searchTerms, gene)[0]
+
+        geneList = lengthRestrictions.keys()
+        LR = None
+
+        saveName = projectName + geneName + 'Scrubbed.gbk'
+
+        if geneName.upper() in map(str.upper, lengthRestrictions.keys()):
+            LR = lengthRestrictions[geneName.upper()]
+
+        for f in SeqIO.parse(gene, 'genbank'):
+            seq = f.seq
+            species = f.annotations['organism']
+            geneName = f.description
+
+            PropAmbig = sum(seq.count(x) for x in AmbiguousChars)/len(seq)
+
+            if PropAmbig < PropAmThresh:
+                MaybePile.append(f)
+            else:
+                ThrowawayPile.append(f)
+
+        for f in MaybePile:
+            if LR is not None and len(f.seq) < LR:
+                ThrowawayPile.append(f)
+            else:
+                KeepPile.append(f)
+
+        if len(KeepPile) is not 0:
+            output_handle = open(saveName, 'w')
+            count = SeqIO.write(KeepPile, output_handle, 'genbank')
+
+def fastaSeq(fileNames):
+    for gbk in fileNames:
+        savename = gbk[0:len(gbk)-4]+'.fasta'
+        input_handle = open(gbk, 'rU')
+        output_handle = open(savename, 'w')
+
+        sequences = SeqIO.parse(input_handle, 'genbank')
+        count = SeqIO.write(sequences, output_handle, 'fasta')
+
+        output_handle.close()
+        input_handle.close()
