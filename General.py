@@ -1,5 +1,4 @@
 # PRESETS/RANGE RESTRICTIONS FOR COMMONLY ENCOUNTERED BARCODE GENES
-# 12S, 16S swapped to S12, S16 to avoid initializing variable w/ numbers
 import csv
 import numpy as np
 from Bio import Entrez, SeqIO
@@ -8,11 +7,13 @@ import os
 import sys
 import re
 import glob
+import pickle
 
 lengthRestrictions = {'12S':500, '16S':525, 'RAG1':1200, 'RAG2':1200, 'RHODOPSIN':500, 'CYTB':700, 'COI':500}
 
 AmbiguousChars = ['R', 'Y', 'W', 'S', 'M', 'K', 'H', 'B', 'D', 'V', 'X', 'N']
 PropAmThresh = 0.03
+GBMax = 100
 
 # function for splitting into chunks
 def chunks(l, n):
@@ -23,8 +24,6 @@ def chunks(l, n):
 def fetchSeq(csvPath, projectName=''):
     reader = csv.reader(open(csvPath, 'rb')) # read in csv
     byColumn = list(zip(*reader)) # parse by columns, first element is definition
-
-    GBMax = 100
 
     GBCodes = []
     for el in byColumn:
@@ -40,24 +39,7 @@ def fetchSeq(csvPath, projectName=''):
 
         # fetching FASTA sequences
         # if more than 100, space it out!
-        if len(gene) > GBMax:
-            for chunk in chunks(gene[1:len(gene)], 100):
-                genbank_handle = Entrez.efetch(db='nucleotide', id=chunk, rettype='gb', retmode='text')
-                if os.path.isfile(filename):
-                    out_handle = open(filename, 'a')
-                    out_handle.write(genbank_handle.read())
-                else:
-                    out_handle = open(filename, 'w')
-                    out_handle.write(genbank_handle.read())
-                out_handle.close()
-                genbank_handle.close()
-                time.sleep(3)
-        else:
-            genbank_handle = Entrez.efetch(db='nucleotide', id=gene[1:len(gene)], rettype='gb', retmode='text')
-            out_handle = open(filename, 'w')
-            out_handle.write(genbank_handle.read())
-            out_handle.close()
-            genbank_handle.close()
+        gbFetch(gene, filename)
 
 def scrubSeq(csvPath, projectName=''):
     """Sorting FASTA sequences with following conditions:
@@ -105,6 +87,48 @@ def scrubSeq(csvPath, projectName=''):
         if len(KeepPile) is not 0:
             output_handle = open(saveName, 'w')
             count = SeqIO.write(KeepPile, output_handle, 'genbank')
+
+def gbFetch(IDs, filename): # pass list of GB id's
+    if len(IDs) > GBMax:
+        for chunk in chunks(IDs[1:len(IDs)], 100):
+            genbank_handle = Entrez.efetch(db='nucleotide', id=chunk, rettype='gb', retmode='text')
+
+            if os.path.isfile(filename):
+                out_handle = open(filename, 'a')
+                out_handle.write(genbank_handle.read())
+
+            else:
+                out_handle = open(filename, 'w')
+                out_handle.write(genbank_handle.read())
+            out_handle.close()
+            genbank_handle.close()
+            time.sleep(3)
+    else:
+        genbank_handle = Entrez.efetch(db='nucleotide', id=IDs[1:len(IDs)], rettype='gb', retmode='text')
+        if os.path.isfile(filename):
+            out_handle = open(filename, 'a')
+        else:
+            out_handle = open(filename, 'w')
+        out_handle.write(genbank_handle.read())
+        out_handle.close()
+        genbank_handle.close()
+
+def getSaveGenBankIDs(species, filename):
+    """Takes list of species, searches GenBank for vouchers associated with each and saves them."""
+    output = []
+
+    for s in species:
+        output.append(speciesSeq(s))
+
+    with open(filename, 'wb') as f:
+        pickle.dump(output, f)
+
+def speciesSeq(species):
+    searchTerm = species + "[PORG]"
+    Entrez.email = 'hannahiweller@gmail.com'
+    handle = Entrez.esearch(db="nucleotide", term=searchTerm, rettype="gb")
+    record = Entrez.read(handle)
+    return record
 
 def fastaSeq(fileNames):
     for gbk in fileNames:

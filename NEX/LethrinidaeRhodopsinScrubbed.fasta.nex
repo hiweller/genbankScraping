@@ -1,0 +1,186 @@
+#NEXUS
+[written Sat Sep 10 22:46:08 CDT 2016 by Mesquite  version 3.10 (build 765) at Problematicus.local/127.0.0.1]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=5;
+	TAXLABELS
+		'KC222236.1 Gnathodentex aureolineatus isolate MBIO487 rhodopsin gene, partial cds.' 'JQ937974.1 Lethrinus harak voucher KU7105 rhodopsin (RH) gene, partial cds.' 'KC222235.1 Lethrinus olivaceus isolate MBIO1269 rhodopsin gene, partial cds.' 'KP723061.1 Monotaxis grandoculis isolate Let91 rhodopsin (RH) gene, partial cds.' 'KC222234.1 Monotaxis grandoculis isolate MBIO468 rhodopsin gene, partial cds.' 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	DIMENSIONS  NCHAR=837;
+	FORMAT DATATYPE = DNA GAP = - MISSING = ?;
+	MATRIX
+	'KC222236.1 Gnathodentex aureolineatus isolate MBIO487 rhodopsin gene, partial cds.' ---------------------------------------------TACATGTTCTTCCTCATCCTTGTGGGCTTCCCCATCAACTTCCTCACCCTGTACGTCACCATCGAACACAAGAAGCTGCGGACCCCTCTAAACTACATTCTGTTGAACCTTGCGGTGGCTAACCTTTTCATGGTCTTTGGAGGATTCACCACAACGATGTACACCTCTATGCATGGCTACTTCGTACTGGGACGCCTTGGCTGCAATCTGGAAGGATTCTTTGCAACCCTCGGCGGTGAGATTGCGCTCTGGTCACTGGTTGTTCTGGCTATTGAAAGGTGGGTAGTTGTCTGCAAACCCATCAGCAACTTCCGCTTCGGGGAGAATCACGCCATTATGGGTCTGGGCCTGACCTGGACGATGGCTTCAGCTTGCGCCGTGCCCCCTCTGGTTGGCTGGTCCCGTTACATCCCTGAGGGAATGCAGTGCTCATGTGGAGTTGACTACTACACACGTGCTGAGGGTTTCAACAACGAGTCCTTTGTTGTCTACATGTTCACCTGCCACTTCCTCACCCCACTGACCATTGTGTTCTTCTGCTACGGTCGTCTGCTCTGTGCTGTCAAAGAGGCTGCTGCCGCCCAGCAGGAGTCTGAGACCACCCAGAGGGCTGAGAGGGAAGTCACCCGCATGGTCATTCTGATGGTCATCGCCTTCCTGGTATGTTGGTGTCCCTATGCCGGTGTAGCCTGGTGGATCTTCACCCATCAGGGCTCAGAATTCGGACCAGTCTTCATGACCATCCCA---------------------------------------------
+	'JQ937974.1 Lethrinus harak voucher KU7105 rhodopsin (RH) gene, partial cds.'       ------------------------------------------GCCTACATGTTCCTGCTCATCCTTCTCGGCTTCCCCATCAACTTCCTCACCCTGTACGTCACCATCGAACACAAGAAGCTGCGAACCCCTCTAAACTACATCCTGCTGAACCTTGCGGTGGCTAACCTCTTCATGGTCTTTGGAGGATTCACCACAACGATGTACACCTCTATGCATGGCTACTTCGTACTGGGACGCCTTGGCTGCAATCTGGAAGGATTCTTTGCTACCCATGGTGGTGAAATCGCCCTGTGGTCTCTGGTTGTTCTGGCTATCGAAAGGTGGGTGGTCGTCTGCAAGCCCATCAGCAACTTCCGCTTCGGGGAGAATCACGCCATCATGGGTTTGGCCTTCACCTGGGTGATGGCCGGTGCTTGCTCCGTGCCCCCTCTGGTCGGCTGGTCCCGTTACATCCCCGAGGGAATGCAGTGCTCATGTGGAATTGACTACTACACACGTGCAGAGGGTTTCAACAATGAGTCTTTTGTCATCTACATGTTCACCTGCCACTTCCTCACCCCACTGATCATCGTGTTCTTCTGCTACGGCCGTCTGCTCTGTGCTGTCAAAGAGGCTGCTGCTGCCCAGCAGGAGTCTGAGACCACCCAGAGGGCTGAGAGGGAAGTCACCCGCATGGTCGTTATCATGGTCATCGCCTTCCTGGTATGTTGGTTGCCCTATGCTAGTGTAGCCTGGTGGATCTTC------------------------------------------------------------------------------------------
+	'KC222235.1 Lethrinus olivaceus isolate MBIO1269 rhodopsin gene, partial cds.'      ---------------------------------------------TACATGTTCCTGCTCATCCTTCTCGGCTTCCCCATCAACTTCCTCACCCTGTACGTCACCATCGAACACAAGAAGCTGCGAACCCCTCTAAACTACATCCTGCTGAACCTTGCGGTGGCTAACCTCTTCATGGTCTTTGGAGGATTCACCACAACGATGTACACCTCTATGCATGGCTACTTCGTACTGGGACGCCTTGGCTGCAATCTGGAAGGATTCTTTGCTACCCACGGTGGTGAAATCGCGCTGTGGTCTCTGGTTGTTCTGGCTATCGAAAGGTGGGTGGTTGTCTGCAAGCCCATCAGCAACTTCCGCTTCGGGGAGAATCACGCCATTATGGGTTTGGGCTTCACCTGGCTGATGGCCAGTGCTTGCTCCGTGCCCCCTCTGGTCGGCTGGTCCCGTTACATCCCCGAGGGAATGCAGTGCTCATGTGGAATTGACTACTACACACGTGCAGAGGGTTTCAACAATGAGTCTTTTGTCATCTACATGTTCACCTGCCACTTCCTCACCCCACTGACCATTGTGTTCTTCTGCTACGGCCGTCTGCTCTGTGCTGTCAAAGAGGCTGCTGCCGCCCAGCAGGAGTCTGAGACCACCCAGAGGGCTGAGAGGGAAGTCACCCGCATGGTCATTCTCATGGTCATCGCCTTCCTGGTATGTTGGTTGCCCTATGCCAGTGTAGCCTGGTGGATCTTCACACATCAAGGCTCAGAATTCGGACCAGTCTTCATGACCATCCCG---------------------------------------------
+	'KP723061.1 Monotaxis grandoculis isolate Let91 rhodopsin (RH) gene, partial cds.'  CAGTACTACCTTGTCAACCCAGCAGCATATGCTGCTCTGGGTGCCTACATGTTCCTCCTCATCCTTCTGGGCTTCCCCATCAACTTCCTCACCCTGTACGTCACCATCGAACACAAGAAGCTGCGGACCCCTCTAAACTACATTCTGCTGAACCTTGCGGTGGCTAACCTTTTCATGGTCTTTGGAGGATTCACCACAACGATGTACACCTCTATGCACGGCTACTTCGTACTGGGACGCCTTGGCTGCAATCTGGAAGGATTCTTTGCTACCCACGGCGGTGAGATTGCCCTCTGGTCACTGGTTGTTTTGGCTATTGAAAGGTGGGTAGTTGTCTGCAAACCCATCAGCAACTTCCGCTTCGGGGAGAATCACGCCATTATGGGTCTGGCCTTCACCTGGTTAATGGCTTCAGCTTGCTCCGTGCCCCCTCTGGTAGGCTGGTCCCGTTATATCCCTGAGGGAATGCAGTGCTCATGTGGAGTTGACTACTACACACGTGCAGAGGGTTTCAACAATGAGTCCTTTGTCGTCTACATGTTCACCTGCCACTTCCTCACCCCACTGACCATTGTGTTCTTCTGCTACGGTCGTCTGCTCTGTGCTGTCAAAGAGGCTGCTGCCGCCCAGCAGGAGTCCGAGACCACCCAGAGGGCTGAGAGGGAAGTCACCCGCATGGTCATTCTCATGGTCATCGCCTTCCTGGTATGTTGGTTGCCCTATGCCAGTGTAGCCTGGTGGATCTTCACACATCAGGGCTCAGAATTCGGACCAGTCTTCATGACCATCCCAGCCTTCTTTGCCAAGAGCTCCTCCATCTACAACCCAATGATCTAC
+	'KC222234.1 Monotaxis grandoculis isolate MBIO468 rhodopsin gene, partial cds.'     ----------------------------------------------ACATGTTCCTCCTCATCCTTCTGGGCTTCCCCATCAACTTCCTCACCCTGTACGTCACCATCGAACACAAGAAGCTGCGGACCCCTCTAAACTACATTCTGCTGAACCTTGCGGTGGCTAACCTTTTCATGGTCTTTGGAGGATTCACCACAACGATGTACACCTCTATGCACGGCTACTTCGTACTGGGACGCCTTGGCTGCAATCTGGAAGGATTCTTTGCTACCCACGGCGGTGAGATTGCCCTCTGGTCACTGGTTGTTTTGGCTATTGAAAGGTGGGTAGTTGTCTGCAAACCCATCAGCAACTTCCGCTTCGGGGAGAATCACGCCATTATGGGTCTGGCCTTCACCTGGTTAATGGCTTCAGCTTGCTCCGTGCCCCCTCTGGTAGGCTGGTCCCGTTATATCCCTGAGGGAATGCAGTGCTCATGTGGAGTTGACTACTACACACGTGCAGAGGGTTTCAACAATGAGTCCTTTGTCGTCTACATGTTCACCTGCCACTTCCTCACCCCACTGACCATTGTGTTCTTCTGCTACGGTCGTCTGCTCTGTGCTGTCAAAGAGGCTGCTGCCGCCCAGCAGGAGTCCGAGACCACCCAGAGGGCTGAGAGGGAAGTCACCCGCATGGTCATTCTCATGGTCATCGCCTTCCTGGTATGTTGGTTGCCCTATGCCAGTGTAGCCTGGTGGATCTTCACACATCAGGGCTCAGAATTCGGACCAGTCTTCATGACCATCCCA---------------------------------------------
+
+;
+
+
+
+END;
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED   =  unord:  1 -  837;
+
+END;
+
+BEGIN NOTES;
+
+	TAXABITS   NAME = newlyAddedTaxon on =  1 -  5;
+
+END;
+
+BEGIN CODONS;
+	CODESET * UNTITLED   =  universal:  1 -  837;
+
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED   =  'Jukes-Cantor':  1 -  837;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1473565568314;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 8344805976386228018;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 3144321796756764757;
+			mqVersion 310;
+			checksumv 0 3 1594315873 null  getNumChars 837 numChars 837 getNumTaxa 5 numTaxa 5   short true   bits 15   states 15   sumSquaresStatesOnly 85859.0 sumSquares 85859.0 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 100;
+			setPopoutState 300;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1281 719;
+			setLocation -1 23;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #3144321796756764757 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1181 647;
+					setLocation -1 23;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+					setActive;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges off;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames off;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					toggleShowPaleExcluded off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize off;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.AlterData.AlterData;
+				tell It;
+					toggleBySubmenus off;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.align.AlignToDropped.AlignToDropped;
+				tell It;
+					gapCosts 8 3 2 2;
+					subCosts  10 5 10 10 10 5 5 10 10 10 5 10;
+				endTell;
+				getEmployee #mesquite.molec.ColorByAA.ColorByAA;
+				tell It;
+					emphasizeDegeneracy off;
+				endTell;
+				getEmployee #mesquite.molec.SequenceInfoEditor.SequenceInfoEditor;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+
