@@ -14,6 +14,7 @@ lengthRestrictions = {'12S':500, '16S':525, 'RAG1':1200, 'RAG2':1200, 'RHODOPSIN
 AmbiguousChars = ['R', 'Y', 'W', 'S', 'M', 'K', 'H', 'B', 'D', 'V', 'X', 'N']
 PropAmThresh = 0.03
 GBMax = 100
+geneMax = 2000
 
 # function for splitting into chunks
 def chunks(l, n):
@@ -48,7 +49,6 @@ def scrubSeq(csvPath, projectName=''):
     gbkFiles = glob.glob('./*.gbk')
     reader = csv.reader(open(csvPath, 'rb'))
     geneNames = next(reader)[1:len(next(reader))]
-
     for gene in gbkFiles:
 
         KeepPile = []
@@ -141,3 +141,50 @@ def fastaSeq(fileNames):
 
         output_handle.close()
         input_handle.close()
+
+def scrubGBK(gbkFiles, geneNames, projectName='', noMitComp=True):
+    """Sorting FASTA sequences with following conditions:
+    1) Remove anything with > 0.03 ambiguous character proportion
+    2) Remove anything shorter than recommended minimum gene length for that gene."""
+    for gene in gbkFiles:
+
+        KeepPile = []
+        MaybePile = []
+        ThrowawayPile = []
+
+        searchTerms = re.compile(r"(?=("+'|'.join(geneNames)+r"))", re.IGNORECASE)
+        geneName = re.findall(searchTerms, gene)[0]
+
+        geneList = lengthRestrictions.keys()
+        LR = None
+
+        saveName = projectName + geneName + 'Scrubbed.gbk'
+
+        if geneName.upper() in map(str.upper, lengthRestrictions.keys()):
+            LR = lengthRestrictions[geneName.upper()]
+
+        for f in SeqIO.parse(gene, 'genbank'):
+            seq = f.seq
+            species = f.annotations['organism']
+            geneName = f.description
+
+            PropAmbig = sum(seq.count(x) for x in AmbiguousChars)/len(seq)
+
+            if PropAmbig < PropAmThresh:
+                MaybePile.append(f)
+            else:
+                ThrowawayPile.append(f)
+
+        for f in MaybePile:
+            if LR is not None and len(f.seq) < LR or len(f.seq) > geneMax:
+                ThrowawayPile.append(f)
+            else:
+                KeepPile.append(f)
+
+        if len(KeepPile) is not 0:
+            output_handle = open(saveName, 'w')
+            count = SeqIO.write(KeepPile, output_handle, 'genbank')
+
+def flatten(bigList):
+    newList = [item for sublist in bigList for item in sublist]
+    return(newList)

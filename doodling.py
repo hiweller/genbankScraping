@@ -1,7 +1,8 @@
 # import LethrinidaeSpecies.csv
 import csv
 import numpy as np
-from Bio import Entrez, SeqIO
+from Bio import Entrez, SeqIO, AlignIO
+from Bio.Nexus import Nexus
 import time
 import os
 import sys
@@ -17,79 +18,72 @@ Entrez.email = 'hannahiweller@gmail.com'
 LethrinidPath = '/Users/hannah/Dropbox/Westneat_Lab/GenBank Scraping/LethrinidaeSpecies.csv'
 projectName = 'Lethrinidae'
 
+"""EVENTUAL WORKFLOW GOAL:
+1) Input SPECIES LIST and GENE LIST (i.e. "COI", "16S", "Cytb", "rag1", etc)
+2) Search for accession numbers of each species/gene combination
+3) Store the accession numbers by gene
+4) Download all Genbank files for stored accession numbers by gene
+5) Scrub (quality control) sequences for < 0.03 proportion ambiguous characters and longer than minimum length for that gene
+6) Convert scrubbed GBK files to FASTA for review in Mesquite (pick only 1 sequence/species for every gene)**
+7) Review aligned Nexus files in Mesquite and save final version (aligned, 1 sequence/species for every gene) in SIMPLIFIED Nexus format
+8) Edit taxon names down to just species names instead of huge Genbank tags
+9) Align all genes into supermatrix
 
-# fetches all the sequences from the provided accession numbers and saves one gbk file per gene/column
-# g.fetchSeq(LethrinidPath, projectName)
-#
-# # checks for length and ambiguous characters
-# g.scrubSeq(LethrinidPath, projectName)
-#
-# # converts to fasta format
-# gbkFiles = glob.glob('./*Scrubbed.gbk')
-# g.fastaSeq(gbkFiles)
-
-# pull out one sequence for each species - longest?
-
-# how to pull down every sequence for a given species
-# Entrez.email = 'hannahiweller@gmail.com'
-# handle = Entrez.esearch(db="nucleotide", term="Monotaxis grandoculis[PORG]", rettype="gb")
-# record = Entrez.read(handle)
-
-# reader = csv.reader(open(LethrinidPath, 'rb')) # read in csv
-# byColumn = list(zip(*reader)) # parse by columns, first element is definition
-# Lethrinids = byColumn[0][1:-1]
-#
-# # g.getSaveGenBankIDs(Lethrinids, 'LethrinidAccessionNumbers')
-#
-# with open('LethrinidAccessionNumbers', 'rb') as f:
-#     record = pickle.load(f)
-#
-# for species in record:
-#     gbID = species["IdList"]
-#
-#     g.gbFetch(gbID, 'output.gbk')
-#     time.sleep(1)
+** For Sparids, also then tack this onto the bottom of Lethrinids gene matrices and save as simplified nexus."""
 
 reader = csv.reader(open('Sparids.csv', 'rb'))
 byColumn = list(zip(*reader))
-
-record = []
-# for species in byColumn[0]:
-#     for gene in genes:
-#         searchTerm = species + "[organism] AND " + gene + "[gene]"
-#         handle = Entrez.esearch(db="nucleotide", term=searchTerm)
-#         record.append(Entrez.read(handle))
-
 genes = ["COI", "16S", "Cytb", "rag1", "Rhodopsin"]
+# genes = ["Cytb", "rag1", "Rhodopsin"]
 
-for species in byColumn[0][1:-1]:
-    searchTerm = species + "[organism] AND rag1[gene]"
-    handle = Entrez.esearch(db="nucleotide", term=searchTerm)
-    record.append(Entrez.read(handle))
-# accNumbers = []
+# for gene in genes:
+#     record = []
+#     saveName = 'Sparidae' + gene + 'AccNumbers'
+#     for species in byColumn[0]:
+#         searchTerm = species + "[organism] AND " + gene + "[title]"
+#         handle = Entrez.esearch(db="nucleotide", term=searchTerm)
+#         temp = Entrez.read(handle)
+#         if temp["Count"] != '0':
+#             record.append(temp)
+#     pickle.dump(record, open(saveName, 'w'))
+
+# pickle.dump(record, open('./SparidAccNumbers', 'w'))
 #
-# for species in Lethrinids:
-#     accNumbers.append(g.speciesSeq(species))
+# geneAccNumbers = glob.glob('./Sparidae*AccNumbers')
+
+# for gene in geneAccNumbers:
+#     SparidAccNumbers = pickle.load(open(gene, 'rb'))
+#     saveName = gene[0:-1-9]+'Raw.gbk'
+#     gbkNumbers = []
+#     for entry in SparidAccNumbers:
+#         gbkNumbers.append(entry["IdList"])
 #
-# with open('temp', 'wb') as f:
-#     pickle.dump(accNumbers, f)
+#     gbkNumbers = g.flatten(gbkNumbers)
+#     g.gbFetch(gbkNumbers, saveName)
 
-# with open('temp', 'rb') as f:
-#     test = pickle.load(f)
-# pickle.dump(accNumbers, 'temp')
+rawGBK = glob.glob('./*Raw.gbk')
+simplified = glob.glob("NEX/Lethrinidae*Simple.nex")
 
-# itemList = pickle.load('temp')
+combos = glob.glob("NEX/COMBINED*Simple.nex")
 
+nexi = [(fname, Nexus.Nexus(fname)) for fname in combos]
 
+combined = Nexus.combine(nexi)
+combined.write_nexus_data(filename=open('COMBINED_LethrinidSparid_All.nex', 'w'))
 
+# for f in simplified:
+#     input_handle = AlignIO.read(open(f), "nexus")
+#     saveName = f[0:(-1-12)] + "_Renamed.nex"
+#     output_handle = open(saveName, "w")
+#
+#     for f in input_handle:
+#         newName = " ".join(f.id.split(" ")[1:3])
+#         f.id = newName
+#         print f.id
+#
+#     AlignIO.write(input_handle, output_handle, "nexus")
 
-# handle = Entrez.einfo(db="nucleotide")
-# record = Entrez.read(handle)
-
-
-
-
-# for field in record["DbInfo"]["FieldList"]:
-#     print("%(Name)s, %(FullName)s, %(Description)s" % field)
-
-# PORG, Primary Organism, Scientific and common names of primary organism, and all higher levels of taxonomy
+# g.scrubGBK(projectName='Sparidae', gbkFiles = rawGBK, geneNames = genes)
+# fileNames = glob.glob('./*Scrubbed.gbk')
+# g.fastaSeq(fileNames)
+# scrubGBK = glob.glob('./*Scrubbed.gbk')
