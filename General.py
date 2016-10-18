@@ -16,7 +16,7 @@ PropAmThresh = 0.03
 GBMax = 100
 geneMax = 2000
 
-# function for splitting into chunks
+# function for splitting into chunks so we don't get kicked out of Entrez for searching too much at once
 def chunks(l, n):
     """Yield successive n-sized chunks from l."""
     for i in range(0, len(l), n):
