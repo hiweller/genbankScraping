@@ -1,0 +1,5 @@
+set usebeagle=yes beagleprecision=double beaglesse=yes beaglescaling=dynamic beagleopenmp=no beaglethreads=no
+set autoclose=yes
+set nowarnings=yes
+execute infile.nex
+quit

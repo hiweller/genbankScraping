@@ -1,0 +1,605 @@
+CIPRES_THREADSPP=0
+CIPRES_NP=8
+paramfile=paramfile.txt
+running:
+ibrun -bl none -np 8 mb < paramfile.txt
+
+
+                        MrBayes v3.2.6-svn(r1040) x64
+
+                      (Bayesian Analysis of Phylogeny)
+
+                             (Parallel version)
+                         (8 processors available)
+
+              Distributed under the GNU General Public License
+
+
+               Type "help" or "help <command>" for information
+                     on the commands that are available.
+
+                   Type "about" for authorship and general
+                       information about the program.
+
+
+MrBayes > 
+   Setting usebeagle to yes
+   Setting beagleprecision to double
+   Setting beaglesse to Yes
+   Setting beaglescaling to Dynamic
+   Setting beagleopenmp to No
+   Pthreads library is not linked to this executable.
+
+MrBayes > 
+   Setting autoclose to yes
+
+MrBayes > 
+   Setting nowarnings to yes
+
+MrBayes > 
+   Executing file "infile.nex"
+   UNIX line termination
+   Longest line length = 3916
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading data block
+      Allocated taxon set
+      Allocated matrix
+      Defining new matrix with 150 taxa and 3882 characters
+      Data is Dna
+      Gaps coded as -
+      Missing data coded as ?
+      Taxon   1 -> Lethrinus_atkinsoni
+      Taxon   2 -> Lethrinus_genivittatus
+      Taxon   3 -> Lethrinus_haematopterus
+      Taxon   4 -> Lethrinus_harak
+      Taxon   5 -> Lethrinus_lentjan
+      Taxon   6 -> Lethrinus_nebulosus
+      Taxon   7 -> Lethrinus_ornatus
+      Taxon   8 -> Lethrinus_rubrioperculatus
+      Taxon   9 -> Lethrinus_variegatus
+      Taxon  10 -> Acanthopagrus_berda
+      Taxon  11 -> Acanthopagrus_bifasciatus
+      Taxon  12 -> Acanthopagrus_latus
+      Taxon  13 -> Acanthopagrus_pacificus
+      Taxon  14 -> Archosargus_probatocephalus
+      Taxon  15 -> Argyrops_spinifer
+      Taxon  16 -> Argyrozona_argyrozona
+      Taxon  17 -> Boops_boops
+      Taxon  18 -> Boopsoidea_inornata
+      Taxon  19 -> Calamus_brachysomus
+      Taxon  20 -> Calamus_nodosus
+      Taxon  21 -> Centracanthus_cirrus
+      Taxon  22 -> Cheimerius_nufar
+      Taxon  23 -> Chrysoblephus_anglicus
+      Taxon  24 -> Chrysoblephus_cristiceps
+      Taxon  25 -> Chrysoblephus_laticeps
+      Taxon  26 -> Chrysoblephus_puniceus
+      Taxon  27 -> Crenidens_crenidens
+      Taxon  28 -> Cymatoceps_nasutus
+      Taxon  29 -> Dentex_abei
+      Taxon  30 -> Dentex_dentex
+      Taxon  31 -> Dentex_fourmanoiri
+      Taxon  32 -> Dentex_gibbosus
+      Taxon  33 -> Dentex_hypselosomus
+      Taxon  34 -> Dentex_macrophthalmus
+      Taxon  35 -> Dentex_maroccanus
+      Taxon  36 -> Dentex_spariformis
+      Taxon  37 -> Evynnis_japonica
+      Taxon  38 -> Dentex_tumifrons
+      Taxon  39 -> Diplodus_annularis
+      Taxon  40 -> Diplodus_bermudensis
+      Taxon  41 -> Diplodus_cervinus
+      Taxon  42 -> Diplodus_holbrooki
+      Taxon  43 -> Diplodus_vulgaris
+      Taxon  44 -> Gymnocrotaphus_curvidens
+      Taxon  45 -> Lagodon_rhomboides
+      Taxon  46 -> Lithognathus_mormyrus
+      Taxon  47 -> Oblada_melanura
+      Taxon  48 -> Pachymetopon_aeneum
+      Taxon  49 -> Pachymetopon_blochii
+      Taxon  50 -> Pagellus_acarne
+      Taxon  51 -> Pagellus_bellottii
+      Taxon  52 -> Pagellus_erythrinus
+      Taxon  53 -> Pagrus_auratus
+      Taxon  54 -> Pagrus_auriga
+      Taxon  55 -> Pagrus_caeruleostictus
+      Taxon  56 -> Pagrus_major
+      Taxon  57 -> Pagrus_pagrus
+      Taxon  58 -> Petrus_rupestris
+      Taxon  59 -> Polyamblyodon_germanum
+      Taxon  60 -> Polysteganus_praeorbitalis
+      Taxon  61 -> Porcostoma_dentata
+      Taxon  62 -> Pterogymnus_laniarius
+      Taxon  63 -> Rhabdosargus_globiceps
+      Taxon  64 -> Rhabdosargus_sarba
+      Taxon  65 -> Rhabdosargus_thorpei
+      Taxon  66 -> Sarpa_salpa
+      Taxon  67 -> Sparidentex_hasta
+      Taxon  68 -> Sparodon_durbanensis
+      Taxon  69 -> Sparus_aurata
+      Taxon  70 -> Spicara_alta
+      Taxon  71 -> Spicara_maena
+      Taxon  72 -> Spicara_smaris
+      Taxon  73 -> Spondyliosoma_cantharus
+      Taxon  74 -> Stenotomus_chrysops
+      Taxon  75 -> Gnathodentex_aureolineatus
+      Taxon  76 -> Gymnocranius_audleyi
+      Taxon  77 -> Gymnocranius_elongatus
+      Taxon  78 -> Gymnocranius_grandoculis
+      Taxon  79 -> Gymnocranius_griseus
+      Taxon  80 -> Gymnocranius_microdon
+      Taxon  81 -> Lethrinus_conchyliatus
+      Taxon  82 -> Lethrinus_crocineus
+      Taxon  83 -> Lethrinus_erythracanthus
+      Taxon  84 -> Lethrinus_laticaudis
+      Taxon  85 -> Lethrinus_mahsena
+      Taxon  86 -> Lethrinus_microdon
+      Taxon  87 -> Lethrinus_miniatus
+      Taxon  88 -> Lethrinus_obsoletus
+      Taxon  89 -> Lethrinus_olivaceus
+      Taxon  90 -> Lethrinus_ravus
+      Taxon  91 -> Lethrinus_semicinctus
+      Taxon  92 -> Lethrinus_xanthochilus
+      Taxon  93 -> Monotaxis_grandoculis
+      Taxon  94 -> Acanthopagrus_australis
+      Taxon  95 -> Acanthopagrus_butcheri
+      Taxon  96 -> Acanthopagrus_catenula
+      Taxon  97 -> Acanthopagrus_palmaris
+      Taxon  98 -> Acanthopagrus_schlegelii
+      Taxon  99 -> Acanthopagrus_sivicolus
+      Taxon 100 -> Acanthopagrus_vagus
+      Taxon 101 -> Archosargus_rhomboidalis
+      Taxon 102 -> Argyrops_bleekeri
+      Taxon 103 -> Argyrops_filamentosus
+      Taxon 104 -> Calamus_arctifrons
+      Taxon 105 -> Calamus_bajonado
+      Taxon 106 -> Calamus_calamus
+      Taxon 107 -> Calamus_leucosteus
+      Taxon 108 -> Calamus_penna
+      Taxon 109 -> Calamus_proridens
+      Taxon 110 -> Chrysoblephus_gibbiceps
+      Taxon 111 -> Chrysoblephus_lophus
+      Taxon 112 -> Dentex_angolensis
+      Taxon 113 -> Dentex_canariensis
+      Taxon 114 -> Diplodus_sargus
+      Taxon 115 -> Diplodus_holbrookii
+      Taxon 116 -> Diplodus_noct
+      Taxon 117 -> Diplodus_puntazzo
+      Taxon 118 -> Diplodus_sargus_copy
+      Taxon 119 -> Evynnis_cardinalis
+      Taxon 120 -> Lithognathus_aureti
+      Taxon 121 -> Lithognathus_lithognathus
+      Taxon 122 -> Pachymetopon_grande
+      Taxon 123 -> Pagellus_affinis
+      Taxon 124 -> Pagellus_bogaraveo
+      Taxon 125 -> Pagellus_natalensis
+      Taxon 126 -> Chrysophrys_auratus
+      Taxon 127 -> Parargyrops_edita
+      Taxon 128 -> Polysteganus_coeruleopunctatus
+      Taxon 129 -> Polysteganus_undulosus
+      Taxon 130 -> Rhabdosargus_haffara
+      Taxon 131 -> Rhabdosargus_holubi
+      Taxon 132 -> Rhabdosargus_niger
+      Taxon 133 -> Spicara_australis
+      Taxon 134 -> Spicara_axillaris
+      Taxon 135 -> Spicara_nigricauda
+      Taxon 136 -> Spondyliosoma_emarginatum
+      Taxon 137 -> Stenotomus_caprinus
+      Taxon 138 -> Virididentex_acromegalus
+      Taxon 139 -> Gymnocranius_oblongus
+      Taxon 140 -> Gymnocranius_oblongus_copy
+      Taxon 141 -> Gymnocranius_satoi
+      Taxon 142 -> Lethrinus_atlanticus
+      Taxon 143 -> Lethrinus_borbonicus
+      Taxon 144 -> Lethrinus_erythropterus
+      Taxon 145 -> Lethrinus_reticulatus
+      Taxon 146 -> Wattsia_mossambica
+      Taxon 147 -> Acanthopagrus_chinshira
+      Taxon 148 -> Acanthopagrus_taiwanensis
+      Taxon 149 -> Cheimerius_matsubarai
+      Taxon 150 -> Pagrus_pagrus_copy
+      Successfully read matrix
+      Setting default partition (does not divide up characters)
+      Setting model defaults
+      Seed (for generating default start values) = 1476131438
+      Setting output file names to "infile.nex.run<i>.<p|t>"
+   Exiting data block
+   Reading mrbayes block
+      Setting outgroup to taxon "Boops_boops"
+      Defining charset called '16S'
+      Defining charset called 'COI'
+      Defining charset called 'CytB'
+      Defining charset called 'RAG1'
+      Defining partition called 'by_gene'
+      Setting by_gene as the partition, dividing characters into 4 parts.
+      Setting model defaults
+      Seed (for generating default start values) = 1174974100
+      Setting Nst to 6 for partition 1
+      Setting Rates to Invgamma for partition 1
+      Successfully set likelihood model parameters to
+      partition 1 (if applicable)
+      Setting Nst to 6 for partition 2
+      Setting Rates to Invgamma for partition 2
+      Successfully set likelihood model parameters to
+      partition 2 (if applicable)
+      Setting Nst to 6 for partition 3
+      Setting Rates to Invgamma for partition 3
+      Successfully set likelihood model parameters to
+      partition 3 (if applicable)
+      Setting Nst to 6 for partition 4
+      Setting Rates to Invgamma for partition 4
+      Successfully set likelihood model parameters to
+      partition 4 (if applicable)
+      Unlinking
+      Setting Ratepr to Variable [Dirichlet(..,1,..)] for partition 1
+      Setting Ratepr to Variable [Dirichlet(..,1,..)] for partition 2
+      Setting Ratepr to Variable [Dirichlet(..,1,..)] for partition 3
+      Setting Ratepr to Variable [Dirichlet(..,1,..)] for partition 4
+      Successfully set prior model parameters to all
+      applicable data partitions 
+      Setting number of generations to 10000000
+      Using relative burnin (a fraction of samples discarded).
+      Setting burnin fraction to 0.25
+      Setting number of runs to 2
+      Setting number of chains to 4
+      Setting print frequency to 1000
+      Setting sample frequency to 1000
+      Setting chain output file names to "infile.nex.run<i>.<p/t>"
+      Running Markov chain
+      MCMC stamp = 7387259735
+      Seed = 920230546
+      Swapseed = 1476131438
+      Model settings:
+
+         Settings for partition 1 --
+            Datatype  = DNA
+            Nucmodel  = 4by4
+            Nst       = 6
+                        Substitution rates, expressed as proportions
+                        of the rate sum, have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00,1.00,1.00)
+            Covarion  = No
+            # States  = 4
+                        State frequencies have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00)
+            Rates     = Invgamma
+                        The distribution is approximated using 4 categories.
+                        Likelihood summarized over all rate categories in each generation.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+                        Proportion of invariable sites is uniformly dist-
+                        ributed on the interval (0.00,1.00).
+
+         Settings for partition 2 --
+            Datatype  = DNA
+            Nucmodel  = 4by4
+            Nst       = 6
+                        Substitution rates, expressed as proportions
+                        of the rate sum, have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00,1.00,1.00)
+            Covarion  = No
+            # States  = 4
+                        State frequencies have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00)
+            Rates     = Invgamma
+                        The distribution is approximated using 4 categories.
+                        Likelihood summarized over all rate categories in each generation.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+                        Proportion of invariable sites is uniformly dist-
+                        ributed on the interval (0.00,1.00).
+
+         Settings for partition 3 --
+            Datatype  = DNA
+            Nucmodel  = 4by4
+            Nst       = 6
+                        Substitution rates, expressed as proportions
+                        of the rate sum, have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00,1.00,1.00)
+            Covarion  = No
+            # States  = 4
+                        State frequencies have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00)
+            Rates     = Invgamma
+                        The distribution is approximated using 4 categories.
+                        Likelihood summarized over all rate categories in each generation.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+                        Proportion of invariable sites is uniformly dist-
+                        ributed on the interval (0.00,1.00).
+
+         Settings for partition 4 --
+            Datatype  = DNA
+            Nucmodel  = 4by4
+            Nst       = 6
+                        Substitution rates, expressed as proportions
+                        of the rate sum, have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00,1.00,1.00)
+            Covarion  = No
+            # States  = 4
+                        State frequencies have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00)
+            Rates     = Invgamma
+                        The distribution is approximated using 4 categories.
+                        Likelihood summarized over all rate categories in each generation.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+                        Proportion of invariable sites is uniformly dist-
+                        ributed on the interval (0.00,1.00).
+
+      Active parameters: 
+
+                             Partition(s)
+         Parameters          1  2  3  4
+         ------------------------------
+         Revmat              1  2  3  4
+         Statefreq           5  6  7  8
+         Shape               9 10 11 12
+         Pinvar             13 14 15 16
+         Ratemultiplier     17 17 17 17
+         Topology           18 18 18 18
+         Brlens             19 19 19 19
+         ------------------------------
+
+         Parameters can be linked or unlinked across partitions using 'link' and 'unlink'
+
+         1 --  Parameter  = Revmat{1}
+               Type       = Rates of reversible rate matrix
+               Prior      = Dirichlet(1.00,1.00,1.00,1.00,1.00,1.00)
+               Partition  = 1
+
+         2 --  Parameter  = Revmat{2}
+               Type       = Rates of reversible rate matrix
+               Prior      = Dirichlet(1.00,1.00,1.00,1.00,1.00,1.00)
+               Partition  = 2
+
+         3 --  Parameter  = Revmat{3}
+               Type       = Rates of reversible rate matrix
+               Prior      = Dirichlet(1.00,1.00,1.00,1.00,1.00,1.00)
+               Partition  = 3
+
+         4 --  Parameter  = Revmat{4}
+               Type       = Rates of reversible rate matrix
+               Prior      = Dirichlet(1.00,1.00,1.00,1.00,1.00,1.00)
+               Partition  = 4
+
+         5 --  Parameter  = Pi{1}
+               Type       = Stationary state frequencies
+               Prior      = Dirichlet
+               Partition  = 1
+
+         6 --  Parameter  = Pi{2}
+               Type       = Stationary state frequencies
+               Prior      = Dirichlet
+               Partition  = 2
+
+         7 --  Parameter  = Pi{3}
+               Type       = Stationary state frequencies
+               Prior      = Dirichlet
+               Partition  = 3
+
+         8 --  Parameter  = Pi{4}
+               Type       = Stationary state frequencies
+               Prior      = Dirichlet
+               Partition  = 4
+
+         9 --  Parameter  = Alpha{1}
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+               Partition  = 1
+
+        10 --  Parameter  = Alpha{2}
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+               Partition  = 2
+
+        11 --  Parameter  = Alpha{3}
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+               Partition  = 3
+
+        12 --  Parameter  = Alpha{4}
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+               Partition  = 4
+
+        13 --  Parameter  = Pinvar{1}
+               Type       = Proportion of invariable sites
+               Prior      = Uniform(0.00,1.00)
+               Partition  = 1
+
+        14 --  Parameter  = Pinvar{2}
+               Type       = Proportion of invariable sites
+               Prior      = Uniform(0.00,1.00)
+               Partition  = 2
+
+        15 --  Parameter  = Pinvar{3}
+               Type       = Proportion of invariable sites
+               Prior      = Uniform(0.00,1.00)
+               Partition  = 3
+
+        16 --  Parameter  = Pinvar{4}
+               Type       = Proportion of invariable sites
+               Prior      = Uniform(0.00,1.00)
+               Partition  = 4
+
+        17 --  Parameter  = Ratemultiplier{all}
+               Type       = Partition-specific rate multiplier
+               Prior      = Dirichlet(1.00,1.00,1.00,1.00)
+               Partitions = All
+
+        18 --  Parameter  = Tau{all}
+               Type       = Topology
+               Prior      = All topologies equally probable a priori
+               Partitions = All
+               Subparam.  = V{all}
+
+        19 --  Parameter  = V{all}
+               Type       = Branch lengths
+               Prior      = Unconstrained:GammaDir(1.0,0.1000,1.0,1.0)
+               Partitions = All
+
+
+      Number of chains per MPI processor = 1
+
+      The MCMC sampler will use the following moves:
+         With prob.  Chain will use move
+            0.74 %   Dirichlet(Revmat{1})
+            0.74 %   Slider(Revmat{1})
+            0.74 %   Dirichlet(Revmat{2})
+            0.74 %   Slider(Revmat{2})
+            0.74 %   Dirichlet(Revmat{3})
+            0.74 %   Slider(Revmat{3})
+            0.74 %   Dirichlet(Revmat{4})
+            0.74 %   Slider(Revmat{4})
+            0.74 %   Dirichlet(Pi{1})
+            0.74 %   Slider(Pi{1})
+            0.74 %   Dirichlet(Pi{2})
+            0.74 %   Slider(Pi{2})
+            0.74 %   Dirichlet(Pi{3})
+            0.74 %   Slider(Pi{3})
+            0.74 %   Dirichlet(Pi{4})
+            0.74 %   Slider(Pi{4})
+            1.48 %   Multiplier(Alpha{1})
+            1.48 %   Multiplier(Alpha{2})
+            1.48 %   Multiplier(Alpha{3})
+            1.48 %   Multiplier(Alpha{4})
+            1.48 %   Slider(Pinvar{1})
+            1.48 %   Slider(Pinvar{2})
+            1.48 %   Slider(Pinvar{3})
+            1.48 %   Slider(Pinvar{4})
+            1.11 %   Dirichlet(Ratemultiplier{all})
+            1.11 %   Slider(Ratemultiplier{all})
+            7.41 %   ExtSPR(Tau{all},V{all})
+            7.41 %   ExtTBR(Tau{all},V{all})
+            7.41 %   NNI(Tau{all},V{all})
+            7.41 %   ParsSPR(Tau{all},V{all})
+           29.63 %   Multiplier(V{all})
+           10.37 %   Nodeslider(V{all})
+            4.44 %   TLMultiplier(V{all})
+
+      Division 1 has 293 unique site patterns
+      Division 2 has 372 unique site patterns
+      Division 3 has 620 unique site patterns
+      Division 4 has 624 unique site patterns
+      Initializing conditional likelihoods
+
+      Using BEAGLE resource 0 for division 1: (non-threaded)
+         Rsrc Name : CPU
+         Impl Name : CPU-4State-SSE-Double
+         Flags: PROCESSOR_CPU PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL
+                SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE
+
+      Using BEAGLE resource 0 for division 2: (non-threaded)
+         Rsrc Name : CPU
+         Impl Name : CPU-4State-SSE-Double
+         Flags: PROCESSOR_CPU PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL
+                SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE
+
+      Using BEAGLE resource 0 for division 3: (non-threaded)
+         Rsrc Name : CPU
+         Impl Name : CPU-4State-SSE-Double
+         Flags: PROCESSOR_CPU PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL
+                SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE
+
+      Using BEAGLE resource 0 for division 4: (non-threaded)
+         Rsrc Name : CPU
+         Impl Name : CPU-4State-SSE-Double
+         Flags: PROCESSOR_CPU PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL
+                SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE
+      Initializing invariable-site conditional likelihoods
+
+      Initial log likelihoods and log prior probs for run 1:
+         Chain 1 -- -128236.375801 -- 186.632854
+
+      There are 7 more chains on other processor(s)
+
+
+      Using a relative burnin of 25.0 % for diagnostics
+
+      Chain results (10000000 generations requested):
+
+         0 -- [-128236.376] [...7 remote chains...] 
+      1000 -- (-97222.430) [...7 remote chains...] -- 11:06:36
+      2000 -- (-90333.370) [...7 remote chains...] -- 12:29:51
+      3000 -- (-85737.643) [...7 remote chains...] -- 11:06:28
+      4000 -- (-82086.313) [...7 remote chains...] -- 11:06:24
+      5000 -- (-79665.675) [...7 remote chains...] -- 11:06:20
+
+      Average standard deviation of split frequencies: 0.202230
+
+      6000 -- (-78042.509) [...7 remote chains...] -- 11:06:16
+      7000 -- (-77223.176) [...7 remote chains...] -- 11:06:12
+      8000 -- (-76202.706) [...7 remote chains...] -- 11:06:08
+      9000 -- (-75480.713) [...7 remote chains...] -- 11:06:04
+      10000 -- (-74415.280) [...7 remote chains...] -- 11:06:00
+
+      Average standard deviation of split frequencies: 0.125808
+
+      11000 -- (-73265.946) [...7 remote chains...] -- 11:21:04
+      12000 -- (-72566.454) [...7 remote chains...] -- 11:19:44
+      13000 -- (-71928.629) [...7 remote chains...] -- 11:05:48
+      14000 -- (-70712.609) [...7 remote chains...] -- 11:05:44
+      15000 -- (-70279.492) [...7 remote chains...] -- 11:05:40
+
+      Average standard deviation of split frequencies: 0.179926
+
+      16000 -- (-69940.028) [...7 remote chains...] -- 11:05:36
+      17000 -- (-69423.664) [...7 remote chains...] -- 11:05:32
+      18000 -- (-69135.412) [...7 remote chains...] -- 11:05:28
+      19000 -- (-68665.675) [...7 remote chains...] -- 11:05:24
+      20000 -- (-68540.513) [...7 remote chains...] -- 11:05:20
+
+      Average standard deviation of split frequencies: 0.177864
+
+      21000 -- (-68197.462) [...7 remote chains...] -- 11:05:16
+      22000 -- (-67806.499) [...7 remote chains...] -- 11:05:12
+      23000 -- (-67546.914) [...7 remote chains...] -- 11:05:08
+      24000 -- (-67232.487) [...7 remote chains...] -- 11:05:04
+      25000 -- (-67066.720) [...7 remote chains...] -- 11:05:00
+
+      Average standard deviation of split frequencies: 0.153940
+
+      26000 -- (-67039.228) [...7 remote chains...] -- 10:58:32
+      27000 -- (-66924.493) [...7 remote chains...] -- 10:58:42
+      28000 -- (-66812.291) [...7 remote chains...] -- 10:58:51
+      29000 -- (-66697.331) [...7 remote chains...] -- 10:59:00
+      30000 -- (-66497.612) [...7 remote chains...] -- 10:59:07
+
+      Average standard deviation of split frequencies: 0.178818
+
+      31000 -- (-66329.007) [...7 remote chains...] -- 10:59:14
+      32000 -- (-66194.538) [...7 remote chains...] -- 10:59:20
+      33000 -- (-66050.211) [...7 remote chains...] -- 10:59:25
+      34000 -- (-65987.959) [...7 remote chains...] -- 10:59:30
+      35000 -- (-65926.439) [...7 remote chains...] -- 10:54:50
+
+      Average standard deviation of split frequencies: 0.174817
+
+      36000 -- (-65868.751) [...7 remote chains...] -- 10:55:02
+      37000 -- (-65852.081) [...7 remote chains...] -- 10:55:13
+      38000 -- (-65782.999) [...7 remote chains...] -- 10:55:23
+      39000 -- (-65751.036) [...7 remote chains...] -- 10:55:33
+      40000 -- (-65753.175) [...7 remote chains...] -- 10:51:33
+
+      Average standard deviation of split frequencies: 0.195104
+
+      41000 -- (-65706.296) [...7 remote chains...] -- 10:51:47
+      42000 -- (-65701.660) [...7 remote chains...] -- 10:52:00
+      43000 -- (-65696.555) [...7 remote chains...] -- 10:52:13
+      44000 -- (-65714.152) [...7 remote chains...] -- 10:52:25
+      45000 -- (-65694.219) [...7 remote chains...] -- 10:52:36
+
+      Average standard deviation of split frequencies: 0.189981
+
+      46000 -- (-65674.843) [...7 remote chains...] -- 10:49:10
+      47000 -- (-65655.703) [...7 remote chains...] -- 10:49:24
+      48000 -- (-65666.839) [...7 remote chains...] -- 10:49:38
+      49000 -- (-65663.577) [...7 remote chains...] -- 10:49:51
+      50000 -- (-65646.321) [...7 remote chains...] -- 10:46:45
+
+      Average standard deviation of split frequencies: 0.184057
+
+      51000 -- (-65634.593) [...7 remote chains...] -- 10:47:00
+      52000 -- (-65530.271) [...7 remote chains...] -- 10:47:15

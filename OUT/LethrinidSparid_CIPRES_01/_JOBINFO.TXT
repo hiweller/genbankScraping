@@ -1,0 +1,14 @@
+Task\ label=LethrinidSparid_MrBayesRun_Trial03
+Task\ ID=1011219
+Tool=MRBAYES_XSEDE
+created\ on=2016-10-10 13:29:50.0
+JobHandle=NGBW-JOB-MRBAYES_XSEDE-9D17358D781748E29EE343A508951186
+resource=gordon
+User\ ID=93295
+User\ Name=hiweller
+email=hiweller@uchicago.edu
+
+Output=(ALL_FILES,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=8
+JOBID=2716294.gordon-fe2.local

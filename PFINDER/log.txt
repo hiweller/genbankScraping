@@ -1,0 +1,71 @@
+INFO     | 2016-10-07 13:39:20,369 | config     | Loading configuration at './partition_finder.cfg'
+INFO     | 2016-10-07 13:39:20,375 | config     | Setting 'alignment' to 'test.phy'
+INFO     | 2016-10-07 13:39:20,376 | config     | Setting 'branchlengths' to 'linked'
+INFO     | 2016-10-07 13:39:20,376 | parser     | Setting 'models' to 'mrbayes'
+INFO     | 2016-10-07 13:39:20,376 | parser     | The models included in this analysis are: GTR+I, GTR+G, F81, F81+G, SYM, F81+I, JC, HKY, K80, HKY+I+G, K80+I, SYM+G, SYM+I, K80+G, GTR, HKY+G, SYM+I+G, HKY+I, F81+I+G, JC+G, GTR+I+G, JC+I, K80+I+G, JC+I+G
+INFO     | 2016-10-07 13:39:20,377 | parser     | Setting datatype to 'DNA'
+INFO     | 2016-10-07 13:39:20,377 | config     | Setting 'model_selection' to 'bic'
+INFO     | 2016-10-07 13:39:20,379 | config     | Setting 'search' to 'greedy'
+INFO     | 2016-10-07 13:39:20,380 | config     | ------------------------ BEGINNING NEW RUN -------------------------------
+INFO     | 2016-10-07 13:39:20,380 | config     | Looking for alignment file './test.phy'...
+ERROR    | 2016-10-07 13:39:20,381 | util       | Failed to find file: './test.phy'. Please check and try again.
+ERROR    | 2016-10-07 13:39:20,381 | main       | Failed to run. See previous errors.
+INFO     | 2016-10-07 13:39:42,379 | config     | Loading configuration at './partition_finder.cfg'
+INFO     | 2016-10-07 13:39:42,384 | config     | Setting 'alignment' to 'COMBINED_LethrinidSparid_All.phy'
+INFO     | 2016-10-07 13:39:42,384 | config     | Setting 'branchlengths' to 'linked'
+INFO     | 2016-10-07 13:39:42,385 | parser     | Setting 'models' to 'mrbayes'
+INFO     | 2016-10-07 13:39:42,385 | parser     | The models included in this analysis are: GTR+I, GTR+G, F81, F81+G, SYM, F81+I, JC, HKY, K80, HKY+I+G, K80+I, SYM+G, SYM+I, K80+G, GTR, HKY+G, SYM+I+G, HKY+I, F81+I+G, JC+G, GTR+I+G, JC+I, K80+I+G, JC+I+G
+INFO     | 2016-10-07 13:39:42,385 | parser     | Setting datatype to 'DNA'
+INFO     | 2016-10-07 13:39:42,385 | config     | Setting 'model_selection' to 'bic'
+INFO     | 2016-10-07 13:39:42,387 | config     | Setting 'search' to 'greedy'
+INFO     | 2016-10-07 13:39:42,388 | config     | ------------------------ BEGINNING NEW RUN -------------------------------
+INFO     | 2016-10-07 13:39:42,388 | config     | Looking for alignment file './COMBINED_LethrinidSparid_All.phy'...
+INFO     | 2016-10-07 13:39:42,388 | analysis   | Beginning Analysis
+INFO     | 2016-10-07 13:39:42,388 | analysis   | Removing Schemes in './analysis/schemes' (they will be recalculated from existing subset data)
+INFO     | 2016-10-07 13:39:42,388 | config     | Checking previously run configuration data...
+INFO     | 2016-10-07 13:39:42,391 | alignment  | Reading alignment file './COMBINED_LethrinidSparid_All.phy'
+ERROR    | 2016-10-07 13:39:42,429 | alignment  | Repeated species name 'Acanthopagrus_pa' is repeated in alignment
+ERROR    | 2016-10-07 13:39:42,430 | main       | Failed to run. See previous errors.
+INFO     | 2016-10-07 13:40:21,766 | config     | Loading configuration at './partition_finder.cfg'
+INFO     | 2016-10-07 13:40:21,772 | config     | Setting 'alignment' to 'COMBINED_LethrinidSparid_All.phy'
+INFO     | 2016-10-07 13:40:21,772 | config     | Setting 'branchlengths' to 'linked'
+INFO     | 2016-10-07 13:40:21,773 | parser     | Setting 'models' to 'mrbayes'
+INFO     | 2016-10-07 13:40:21,773 | parser     | The models included in this analysis are: GTR+I, GTR+G, F81, F81+G, SYM, F81+I, JC, HKY, K80, HKY+I+G, K80+I, SYM+G, SYM+I, K80+G, GTR, HKY+G, SYM+I+G, HKY+I, F81+I+G, JC+G, GTR+I+G, JC+I, K80+I+G, JC+I+G
+INFO     | 2016-10-07 13:40:21,773 | parser     | Setting datatype to 'DNA'
+INFO     | 2016-10-07 13:40:21,773 | config     | Setting 'model_selection' to 'bic'
+INFO     | 2016-10-07 13:40:21,775 | config     | Setting 'search' to 'greedy'
+INFO     | 2016-10-07 13:40:21,776 | config     | ------------------------ BEGINNING NEW RUN -------------------------------
+INFO     | 2016-10-07 13:40:21,776 | config     | Looking for alignment file './COMBINED_LethrinidSparid_All.phy'...
+INFO     | 2016-10-07 13:40:21,776 | analysis   | Beginning Analysis
+INFO     | 2016-10-07 13:40:21,776 | analysis   | Removing Schemes in './analysis/schemes' (they will be recalculated from existing subset data)
+INFO     | 2016-10-07 13:40:21,777 | config     | Checking previously run configuration data...
+INFO     | 2016-10-07 13:40:21,779 | alignment  | Reading alignment file './COMBINED_LethrinidSparid_All.phy'
+INFO     | 2016-10-07 13:40:21,869 | analysis   | No starting tree file found.
+INFO     | 2016-10-07 13:40:21,869 | phyml      | Making BioNJ tree for ./analysis/start_tree/filtered_source.phy
+INFO     | 2016-10-07 13:40:29,358 | phyml      | Estimating GTR+I+G branch lengths on tree
+INFO     | 2016-10-07 13:44:44,957 | phyml      | Branchlength estimation finished
+INFO     | 2016-10-07 13:44:44,959 | analysis   | Starting tree with branch lengths is here: ./analysis/start_tree/filtered_source.phy_phyml_tree.txt
+INFO     | 2016-10-07 13:44:44,960 | method     | Performing greedy analysis
+INFO     | 2016-10-07 13:44:44,960 | progress   | PartitionFinder will have to analyse 13 subsets to complete this analysis
+INFO     | 2016-10-07 13:44:44,960 | progress   | This will result in 11 schemes being created
+INFO     | 2016-10-07 13:44:44,961 | method     | Analysing starting scheme (scheme start_scheme)
+INFO     | 2016-10-07 13:44:45,112 | threadpool | Found 4 cpus
+INFO     | 2016-10-07 13:46:08,122 | progress   | Finished subset 1/13, 7.69 percent done
+INFO     | 2016-10-07 13:48:21,224 | progress   | Finished subset 2/13, 15.38 percent done
+INFO     | 2016-10-07 13:50:06,545 | progress   | Finished subset 3/13, 23.08 percent done
+INFO     | 2016-10-07 13:53:07,665 | progress   | Finished subset 4/13, 30.77 percent done
+INFO     | 2016-10-07 13:53:07,666 | method     | ***Greedy algorithm step 1***
+INFO     | 2016-10-07 13:58:57,875 | progress   | Finished subset 5/13, 38.46 percent done
+INFO     | 2016-10-07 14:04:50,537 | progress   | Finished subset 6/13, 46.15 percent done
+INFO     | 2016-10-07 14:08:21,746 | progress   | Finished subset 7/13, 53.85 percent done
+INFO     | 2016-10-07 14:11:59,632 | progress   | Finished subset 8/13, 61.54 percent done
+INFO     | 2016-10-07 14:16:45,005 | progress   | Finished subset 9/13, 69.23 percent done
+INFO     | 2016-10-07 14:18:51,452 | progress   | Finished subset 10/13, 76.92 percent done
+INFO     | 2016-10-07 14:18:51,453 | method     | ***Greedy algorithm step 2***
+INFO     | 2016-10-07 14:27:12,623 | progress   | Finished subset 11/13, 84.62 percent done
+INFO     | 2016-10-07 14:32:37,974 | progress   | Finished subset 12/13, 92.31 percent done
+INFO     | 2016-10-07 14:32:37,975 | method     | Greedy algorithm finished after 2 steps
+INFO     | 2016-10-07 14:32:37,975 | method     | Highest scoring scheme is scheme step_1, with bic score of 139765.436
+INFO     | 2016-10-07 14:32:37,976 | reporter   | Information on best scheme is here: ./analysis/best_scheme.txt
+INFO     | 2016-10-07 14:32:37,977 | main       | Total processing time: 0:52:16 (h:m:s)
+INFO     | 2016-10-07 14:32:37,977 | main       | Processing complete.

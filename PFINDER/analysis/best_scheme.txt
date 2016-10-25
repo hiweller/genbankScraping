@@ -1,0 +1,31 @@
+Settings used
+
+alignment         : ./COMBINED_LethrinidSparid_All.phy
+branchlengths     : linked
+models            : GTR+I, GTR+G, F81, F81+G, SYM, F81+I, JC, HKY, K80, HKY+I+G, K80+I, SYM+G, SYM+I, K80+G, GTR, HKY+G, SYM+I+G, HKY+I, F81+I+G, JC+G, GTR+I+G, JC+I, K80+I+G, JC+I+G
+model_selection   : bic
+search            : greedy
+
+
+Best partitioning scheme
+
+Scheme Name       : step_1
+Scheme lnL        : -68535.66895
+Scheme BIC        : 139765.436379
+Number of params  : 326
+Number of sites   : 3882
+Number of subsets : 3
+
+Subset | Best Model | Subset Partitions              | Subset Sites                   | Alignment                               
+1      | SYM+I+G    | Gene1                          | 1-611                          | ./analysis/phylofiles/eecdce0042424c59b0e2deb1dc35b813.phy
+2      | GTR+I+G    | Gene2, Gene3                   | 612-1311, 1312-2454            | ./analysis/phylofiles/7288d123717e2c31988aeba858a32286.phy
+3      | GTR+I+G    | Gene4                          | 2455-3882                      | ./analysis/phylofiles/5218a5b350bdf7ae9d6da22985af8ec0.phy
+
+
+Scheme Description in PartitionFinder format
+Scheme_step_1 = (Gene1) (Gene2, Gene3) (Gene4);
+
+RaxML-style partition definitions
+DNA, p1 = 1-611
+DNA, p2 = 612-1311, 1312-2454
+DNA, p3 = 2455-3882
