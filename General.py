@@ -23,6 +23,7 @@ def chunks(l, n):
         yield l[i:i + n]
 
 def fetchSeq(csvPath, projectName=''):
+    """Fetches GBK files and saves under projectName. Provide CSV with genbank accession numbers."""
     reader = csv.reader(open(csvPath, 'rb')) # read in csv
     byColumn = list(zip(*reader)) # parse by columns, first element is definition
 
@@ -42,20 +43,21 @@ def fetchSeq(csvPath, projectName=''):
         # if more than 100, space it out!
         gbFetch(gene, filename)
 
-def scrubSeq(csvPath, projectName=''):
-    """Sorting FASTA sequences with following conditions:
+def scrubSeq(filePath, geneList, projectName=''):
+    """Sorting GBK sequences with following conditions:
     1) Remove anything with > 0.03 ambiguous character proportion
-    2) Remove anything shorter than recommended minimum gene length for that gene."""
-    gbkFiles = glob.glob('./*.gbk')
-    reader = csv.reader(open(csvPath, 'rb'))
-    geneNames = next(reader)[1:len(next(reader))]
+    2) Remove anything shorter than recommended minimum gene length for that gene.
+
+    Takes folder name with GBK files and gene list for building search terms."""
+    gbkFiles = glob.glob(filePath+'/*Raw.gbk')
+
     for gene in gbkFiles:
 
         KeepPile = []
         MaybePile = []
         ThrowawayPile = []
 
-        searchTerms = re.compile(r"(?=("+'|'.join(geneNames)+r"))", re.IGNORECASE)
+        searchTerms = re.compile(r"(?=("+'|'.join(geneList)+r"))", re.IGNORECASE)
         geneName = re.findall(searchTerms, gene)[0]
 
         geneList = lengthRestrictions.keys()
@@ -89,8 +91,9 @@ def scrubSeq(csvPath, projectName=''):
             count = SeqIO.write(KeepPile, output_handle, 'genbank')
 
 def gbFetch(IDs, filename): # pass list of GB id's
+    """Takes a list of Genbank accession numbers and fetches GBK file from each. Saves all GBK data under filename."""
     if len(IDs) > GBMax:
-        for chunk in chunks(IDs[1:len(IDs)], 100):
+        for chunk in chunks(IDs[0:len(IDs)], 100):
             genbank_handle = Entrez.efetch(db='nucleotide', id=chunk, rettype='gb', retmode='text')
 
             if os.path.isfile(filename):
@@ -104,7 +107,7 @@ def gbFetch(IDs, filename): # pass list of GB id's
             genbank_handle.close()
             time.sleep(3)
     else:
-        genbank_handle = Entrez.efetch(db='nucleotide', id=IDs[1:len(IDs)], rettype='gb', retmode='text')
+        genbank_handle = Entrez.efetch(db='nucleotide', id=IDs[0:len(IDs)], rettype='gb', retmode='text')
         if os.path.isfile(filename):
             out_handle = open(filename, 'a')
         else:
@@ -124,6 +127,7 @@ def getSaveGenBankIDs(species, filename):
         pickle.dump(output, f)
 
 def speciesSeq(species):
+    """Searches for all sequences associated with given species."""
     searchTerm = species + "[PORG]"
     Entrez.email = 'hannahiweller@gmail.com'
     handle = Entrez.esearch(db="nucleotide", term=searchTerm, rettype="gb")
@@ -188,3 +192,36 @@ def scrubGBK(gbkFiles, geneNames, projectName='', noMitComp=True):
 def flatten(bigList):
     newList = [item for sublist in bigList for item in sublist]
     return(newList)
+
+def gbkSpeciesGeneSearch(speciesList, geneList, projectName):
+    """Takes list of species and list of genes and searches by every species + gene name combination."""
+    for gene in geneList:
+        record = []
+        saveName = projectName + gene + 'AccNumbers' # object name for pickle dump of fetched accession numbers (creates one per gene)
+
+        for species in speciesList:
+            searchTerm = species + "[PORG] AND " + gene + "[title]"
+            handle = Entrez.esearch(db="nucleotide", term=searchTerm)
+            temp = Entrez.read(handle)
+            if temp["Count"] != 0:
+                record.append(temp)
+        pickle.dump(record, open(saveName, 'w'))
+
+
+def gbkFamilyGeneSearch(familyName, geneList, projectName):
+    """Takes family name and list of genes and searches by every species + gene name combination."""
+    for gene in geneList:
+        record = []
+        saveName = projectName + gene + 'AccNumbers' # object name for pickle dump of fetched accession numbers (creates one per gene)
+
+        searchTerm = familyName + "[organism] AND " + gene + "[title]"
+        handle = Entrez.esearch(db="nucleotide", term=searchTerm)
+        temp = Entrez.read(handle)
+        handle.close()
+
+        all_handle = Entrez.esearch(db="nucleotide", term=searchTerm, retmax = temp['Count'])
+        temp = Entrez.read(all_handle)
+
+        if temp["Count"] != 0:
+            record.append(temp)
+        pickle.dump(record, open(saveName, 'w'))

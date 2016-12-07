@@ -2,6 +2,127 @@
 # BUT NOT SO CONVINCED I'M DONE THAT I'M WILLING TO DELETE IT
 
 
+# input SPECIES LIST and GENE LIST
+# projectName = 'Lutjanidae' # project name
+# speciesList = g.flatten(list(zip(*csv.reader(open('CSV/Sparids.csv', 'rb'))))) # opens 1D species list (from rfishbase)
+# del speciesList[0] # remove column name ('Species' is first element of list when you flatten it)
+#
+# geneList = ["COI", "16S", "CytB", "RAG1", "Rhodopsin"]
+#
+# # g.gbkFamilyGeneSearch('Nemipteridae', geneList, 'Accession Numbers/Nemipteridae')
+#
+# geneAccNumbers = glob.glob('Accession Numbers/Nemipteridae*')
+#
+# for gene in geneAccNumbers:
+#     AccNumberSet = pickle.load(open(gene, 'rb'))
+#     saveName = 'GBK'+gene[17:-1-9]+'Raw.gbk'
+#     gbkNumbers = []
+#     for entry in AccNumberSet:
+#         gbkNumbers.append(entry["IdList"])
+#
+#     gbkNumbers = g.flatten(gbkNumbers)
+#     g.gbFetch(gbkNumbers, saveName)
+# for gene in geneAccNumbers:
+#     AccNumberSet = pickle.load(open(gene, 'rb'))
+#     saveName = gene[0:-1-9]+'Raw.gbk'
+#     gbkNumbers = []
+#     for entry in AccNumberSet:
+#         gbkNumbers.append(entry["IdList"])
+#
+#     gbkNumbers = g.flatten(gbkNumbers)
+#     g.gbFetch(gbkNumbers, saveName)
+
+
+# g.gbkSpeciesGeneSearch(speciesList, geneList, 'Sparidae/Species')
+
+# byGene = glob.glob('Accession Numbers/Gene*')
+#
+# bg = []
+#
+# for i in byGene:
+#     x = 0
+#     AccNumberSet = pickle.load(open(i, 'rb'))
+#     for j in AccNumberSet:
+#         x = x + int(j["Count"])
+#     bg.append(x)
+#
+# byTitle = glob.glob('Accession Numbers/Title*')
+#
+# bt = []
+#
+# for i in byTitle:
+#     x = 0
+#     AccNumberSet = pickle.load(open(i, 'rb'))
+#     for j in AccNumberSet:
+#         x = x + int(j["Count"])
+#     bt.append(x)
+#
+# bySpecies = glob.glob('Accession Numbers/Species*')
+#
+# bs = []
+#
+# for i in bySpecies:
+#     x = 0
+#     AccNumberSet = pickle.load(open(i, 'rb'))
+#     for j in AccNumberSet:
+#         x = x + int(j["Count"])
+#     bs.append(x)
+# # search for accession numbers of each species/gene combination
+# g.gbkSpeciesGeneSearch(speciesList, geneList, 'Accession Numbers/Lutjanidae')
+
+# dowload GBK files for stored accession numbers
+# geneAccNumbers = glob.glob('Accession Numbers/Lutjanidae*AccNumbers')
+#
+# for gene in geneAccNumbers:
+#     AccNumberSet = pickle.load(open(gene, 'rb'))
+#     saveName = gene[0:-1-9]+'Raw.gbk'
+#     gbkNumbers = []
+#     for entry in AccNumberSet:
+#         gbkNumbers.append(entry["IdList"])
+#
+#     gbkNumbers = g.flatten(gbkNumbers)
+#     g.gbFetch(gbkNumbers, saveName)
+
+# for gene in geneAccNumbers:
+#     SparidAccNumbers = pickle.load(open(gene, 'rb'))
+#     saveName = gene[0:-1-9]+'Raw.gbk'
+#     gbkNumbers = []
+#     for entry in SparidAccNumbers:
+#         gbkNumbers.append(entry["IdList"])
+#
+#     gbkNumbers = g.flatten(gbkNumbers)
+#     g.gbFetch(gbkNumbers, saveName)
+
+
+
+
+
+# path to CSV with genbank accession numbers
+# LethrinidPath = '/Users/hannah/Dropbox/Westneat_Lab/GenBank Scraping/LethrinidaeSpecies.csv'
+# projectName = 'Lethrinidae'
+
+
+
+# reader = csv.reader(open('Sparids.csv', 'rb'))
+# byColumn = list(zip(*reader))
+# genes = ["COI", "16S", "Cytb", "rag1", "Rhodopsin"]
+# genes = ["Cytb", "rag1", "Rhodopsin"]
+
+# for gene in genes:
+#     record = []
+#     saveName = 'Sparidae' + gene + 'AccNumbers'
+#     for species in byColumn[0]:
+#         searchTerm = species + "[organism] AND " + gene + "[title]"
+#         handle = Entrez.esearch(db="nucleotide", term=searchTerm)
+#         temp = Entrez.read(handle)
+#         if temp["Count"] != '0':
+#             record.append(temp)
+#     pickle.dump(record, open(saveName, 'w'))
+
+# pickle.dump(record, open('./SparidAccNumbers', 'w'))
+
+
+
 # with open('temp', 'rb') as f:
 #     record = pickle.load(f)
 #
